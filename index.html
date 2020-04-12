@@ -1,0 +1,2795 @@
+<html>
+
+<head>
+    <title>Conteúdo IPTV Fácil</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="Style.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="ListControl.js"></script>
+</head>
+<body id="body">
+
+    <button onclick="ShowList(0)" type="button" class="btn btn-primary waves-effect waves-light">Canais ao vivo</button>
+    <button onclick="ShowList(1)"type="button" class="btn btn-success waves-effect waves-light">Canais 24 horas</button>
+    <button onclick="ShowList(2)"type="button" class="btn btn-warning waves-effect waves-light">Filmes</button>
+    <button onclick="ShowList(3)"type="button" class="btn btn-danger waves-effect waves-light">Séries</button>
+
+    <ul class="list-group" role="tablist">
+        <li id="title-name">Canais ao Vivo</li>
+            <ul class="list-type">
+                <li>A&E </li>
+                <li>AMC </li>
+                <li>Animal Planet </li>
+                <li>Arte 1 </li>
+                <li>AXN </li>
+                <li>Baby TV SD</li>
+                <li>Band </li>
+                <li>Band News </li>
+                <li>Band Sports </li>
+                <li>BIS </li>
+                <li>Boa Vontade SD</li>
+                <li>Boomerang </li>
+                <li>Canal Brasil </li>
+                <li>Cartoon Network </li>
+                <li>Cinemax </li>
+                <li>CNN Brasil </li>
+                <li>CNN Espanhol SD</li>
+                <li>CNN Internacional SD</li>
+                <li>Combate </li>
+                <li>Comedy Central </li>
+                <li>Curta! SD</li>
+                <li>DAZN </li>
+                <li>Discovery Channel </li>
+                <li>Discovery Home & Health </li>
+                <li>Discovery Kids </li>
+                <li>Discovery Science </li>
+                <li>Discovery Theater </li>
+                <li>Discovery Turbo </li>
+                <li>Discovery World </li>
+                <li>Disney Channel </li>
+                <li>Disney Júnior </li>
+                <li>Disney XD </li>
+                <li>E! </li>
+                <li>ESPN 2 </li>
+                <li>ESPN Brasil </li>
+                <li>ESPN Extra </li>
+                <li>ESPN </li>
+                <li>Fish TV SD</li>
+                <li>Food Netword </li>
+                <li>Fox </li>
+                <li>Fox Life </li>
+                <li>Fox Premium 1 </li>
+                <li>Fox Sports 2 </li>
+                <li>Fox Sports </li>
+                <li>FX </li>
+                <li>Globo Bahia SD</li>
+                <li>Globo Brasilia </li>
+                <li>Globo Centro America </li>
+                <li>Globo EPTV Campinas </li>
+                <li>Globo EPTV Ribeirão Preto </li>
+                <li>Globo EPTV Sul Minas </li>
+                <li>Globo EPTV São Carlos </li>
+                <li>Globo Goiânia SD</li>
+                <li>Globo Inter TV Grande Minas </li>
+                <li>Globo Manaus</li>
+                <li>Globo Minas </li>
+                <li>Globo News </li>
+                <li>Globo Nordeste </li>
+                <li>Globo NSC Floripa </li>
+                <li>Globo RBS Poa </li>
+                <li>Globo RJ </li>
+                <li>Globo RPC Paranaense </li>
+                <li>Globo RPC SD</li>
+                <li>Globo S.J Rio Preto </li>
+                <li>Globo Sergipe </li>
+                <li>Globo São Paulo </li>
+                <li>Globo TV Anhanguera </li>
+                <li>Globo TV Diario Mogi </li>
+                <li>Globo TV Fronteira </li>
+                <li>Globo TV Gazeta Alagoas </li>
+                <li>Globo TV Gazeta </li>
+                <li>Globo TV Integração </li>
+                <li>Globo TV Liberal</li>
+                <li>Globo TV Mirante </li>
+                <li>Globo TV Morena </li>
+                <li>Globo TV TEM Sorocaba </li>
+                <li>Globo TV TRIBUNA </li>
+                <li>Globo TV VANGUARDA </li>
+                <li>Globo TV Verdes Mares </li>
+                <li>Gloob </li>
+                <li>Gloobinho </li>
+                <li>GNT </li>
+                <li>H2 </li>
+                <li>HBO 2 </li>
+                <li>HBO Family </li>
+                <li>HBO </li>
+                <li>HBO Plus </li>
+                <li>HBO Signature </li>
+                <li>History Channel </li>
+                <li>Investigacao Discovery SD</li>
+                <li>Lifetime </li>
+                <li>Mais Globosat </li>
+                <li>Max </li>
+                <li>Max </li>
+                <li>Max Prime </li>
+                <li>Max UP </li>
+                <li>Megapix </li>
+                <li>MTV </li>
+                <li>Multishow </li>
+                <li>Mundo Bita (24H)</li>
+                <li>Nat Geo Kids </li>
+                <li>Nat Geo Wild </li>
+                <li>National Geographic </li>
+                <li>Nick JR </li>
+                <li>Nickelodeon </li>
+                <li>Novo Tempo </li>
+                <li>OFF </li>
+                <li>Pai Eterno </li>
+                <li>Paramount Channel </li>
+                <li>Play TV SD</li>
+                <li>Premiere 2 </li>
+                <li>Premiere 3 </li>
+                <li>Premiere 4 </li>
+                <li>Premiere 5 </li>
+                <li>Premiere 6 </li>
+                <li>Premiere 7 </li>
+                <li>Premiere Clubes </li>
+                <li>Prime Box Brasil </li>
+                <li>Record </li>
+                <li>Record News </li>
+                <li>Record </li>
+                <li>Rede TV </li>
+                <li>Rede Vida </li>
+                <li>RIT TV SD</li>
+                <li>Rá Tim Bum </li>
+                <li>SBT </li>
+                <li>Sony </li>
+                <li>Space </li>
+                <li>SporTV 2 </li>
+                <li>SporTV 3 </li>
+                <li>SporTV </li>
+                <li>Studio Universal </li>
+                <li>Syfy </li>
+                <li>TBS </li>
+                <li>TCM </li>
+                <li>Telecine Action </li>
+                <li>Telecine Cult </li>
+                <li>Telecine Fun </li>
+                <li>Telecine Pipoca </li>
+                <li>Telecine Premium </li>
+                <li>Telecine Touch </li>
+                <li>TLC </li>
+                <li>TNT </li>
+                <li>TNT Series </li>
+                <li>TV Brasil </li>
+                <li>TV Camera </li>
+                <li>TV Diario </li>
+                <li>TV Escola </li>
+                <li>TV Justiça </li>
+                <li>TV Senado </li>
+                <li>TV5 SD</li>
+                <li>Universal Channel </li>
+                <li>VH1 </li>
+                <li>VH1 Mega Hits SD</li>
+                <li>Viva </li>
+                <li>Warner Channel </li>
+                <li>WooHoo </li>
+                <li>ZooMoo </li>
+            </ul>
+        <li id="title-name">Canais 24 Horas</li>   
+        
+        <ul class="list-type">
+            <li>BBB 2020 PRINCIPAL </li>
+            <li>BBB 2020 CAM 1 </li>
+            <li>BBB 2020 CAM 2 </li>
+            <li>BBB 2020 CAM 3 </li>
+            <li>BBB 2020 CAM 4 </li>
+            <li>BBB 2020 CAM 5 </li>
+            <li>BBB 2020 CAM 6  </li>
+            <li>BBB 2020 CAM 7 </li>
+            <li>BBB 2020 CAM 8 </li>
+            <li>BBB 2020 CAM 9 </li>
+            <li>BBB 2020 CAM 10 </li>
+            <li>As Aventuras de Jackie Chan</li>
+            <li>Bob Esponja </li>
+            <li>Chaves</li>
+            <li>Clássicos Walt Disney</li>
+            <li>Dragon Ball Super </li>
+            <li>Dragon Ball Z</li>
+            <li>Eu a Patroa e as Crianças</li>
+            <li>Galinha Pintadinha</li>
+            <li>Luluzinha</li>
+            <li>Medabots</li>
+            <li>Mickey Mouse Cartoon</li>
+            <li>Mickey Mouse Clássico (24H)</li>
+            <li>O Pequeno Urso (24H)</li>
+            <li>O Show da Luna (24H)</li>
+            <li>Os Simpsons (24H)</li>
+            <li>Papaléguas e o Coiote (24H)</li>
+            <li>Patrulha Canina (24H)</li>
+            <li>Peppa Pig (24H)</li>
+            <li>Pica-Pau (24H)</li>
+            <li>Scooby-Doo (24H)</li>
+            <li>South Park (24H)</li>
+            <li>Super Choque (24H)</li>
+            <li>Todo Mundo Odeia o Chris (24H)</li>
+            <li>Tom e Jerry (24H)</li>
+            <li>X-Men: Evolution (24H)</li>
+            <li>Yu-Gi-Oh! (24H)</li>
+        </ul>
+
+        <li id="title-name">Filmes</li>
+            <ul class="list-type">
+                <li>500 Dias com Ela</li>
+                <li>007: Cassino Royale</li>
+                <li>007: Contra Spectre</li>
+                <li>007: Operação Skyfall</li>
+                <li>007: Quantum of Solace</li>
+                <li>10 Anos de Pura Amizade</li>
+                <li>10 Coisas que eu Odeio em Você</li>
+                <li>10 Segundos Para Vencer</li>
+                <li>101 Dálmatas</li>
+                <li>10x10: O Cativeiro</li>
+                <li>12 Heróis</li>
+                <li>12 Rounds</li>
+                <li>127 Horas</li>
+                <li>13 Fantasmas</li>
+                <li>13 Horas: Os Soldados Secretos de Benghazi</li>
+                <li>13ª Distrito 1: B13</li>
+                <li>13ª Distrito 2: Ultimato</li>
+                <li>13ª Distrito 3 (Remake 2014)</li>
+                <li>1408</li>
+                <li>15h17: Trem Para Paris</li>
+                <li>1917 (Legendado)</li>
+                <li>2 Filhos de Francisco</li>
+                <li>20 Anos Mais Jovem</li>
+                <li>2012</li>
+                <li>2036 Origem Desconhecida (Legendado)</li>
+                <li>211: O Grande Assalto</li>
+                <li>22 de Julho</li>
+                <li>22 Milhas</li>
+                <li>30 Dias de Noite 1</li>
+                <li>30 Dias de Noite 2: Dias Sombrios</li>
+                <li>300</li>
+                <li>300: A Ascensão do Império</li>
+                <li>3096 Dias de Cativeiro</li>
+                <li>60 Minutos para Morrer</li>
+                <li>60 Segundos</li>
+                <li>7 Dias em Entebbe</li>
+                <li>72 Horas</li>
+                <li>8 Mile: Rua das Ilusões</li>
+                <li>A 13ª Emenda</li>
+                <li>A 5ª Onda</li>
+                <li>A Aparição</li>
+                <li>A Arte da Autodefesa</li>
+                <li>A Autópsia</li>
+                <li>A Bailarina</li>
+                <li>A Balada do Pistoleiro</li>
+                <li>A Barraca do Beijo</li>
+                <li>A Bela Adormecida</li>
+                <li>A Bela e a Fera</li>
+                <li>A Cabana</li>
+                <li>A Caminho da Fé</li>
+                <li>A Caminho de Casa</li>
+                <li>A Casa Caiu: Um Cassino na Vizinhança</li>
+                <li>A Casa de Cera</li>
+                <li>A Casa de Vidro</li>
+                <li>A Casa do Lago</li>
+                <li>A Casa do Medo</li>
+                <li>A Casa dos Sonhos</li>
+                <li>A Casa Torta</li>
+                <li>A Caça</li>
+                <li>A Centopéia Humana (Legendado)</li>
+                <li>A Chefa</li>
+                <li>A Chegada</li>
+                <li>A Cilada</li>
+                <li>A Cinco Passos de Você</li>
+                <li>A Clínica</li>
+                <li>A Comédia Divina</li>
+                <li>A Cor Púrpura</li>
+                <li>A Corrente do Bem</li>
+                <li>A Creche do Papai</li>
+                <li>A Creche do Papai 3</li>
+                <li>A Culpa é das Estrelas</li>
+                <li>A Cura</li>
+                <li>A Dama e o Vagabundo</li>
+                <li>A Dama e o Vagabundo (2019)</li>
+                <li>A Encruzilhada</li>
+                <li>A Entidade 1</li>
+                <li>A Entidade 2</li>
+                <li>A Era do Gelo 1</li>
+                <li>A Era do Gelo 2</li>
+                <li>A Era do Gelo 3</li>
+                <li>A Era do Gelo 4</li>
+                <li>A Era do Gelo 5: O Big Bang</li>
+                <li>A Escala: Amizade em Segundo Lugar</li>
+                <li>A Escolha</li>
+                <li>A Escolha Perfeita 1</li>
+                <li>A Escolha Perfeita 2</li>
+                <li>A Escolha Perfeita 3</li>
+                <li>A Escuridão</li>
+                <li>A Estrela de Belém</li>
+                <li>A Experiência 1</li>
+                <li>A Experiência 3</li>
+                <li>A Experiência 4</li>
+                <li>A Face da Morte</li>
+                <li>A Família Addams (Legendado)</li>
+                <li>A Família Buscapé</li>
+                <li>A Família Bélier</li>
+                <li>A Família do Futuro</li>
+                <li>A Fantástica Fábrica de Chocolate</li>
+                <li>A Favorita</li>
+                <li>A Fera</li>
+                <li>A Filha do Presidente</li>
+                <li>A Forca 2 : Segundo Ato</li>
+                <li>A Forma da Água</li>
+                <li>A Fraternidade</li>
+                <li>A Freira</li>
+                <li>A Garota da Capa Vermelha</li>
+                <li>A Garota do Trem</li>
+                <li>A Grande Aposta</li>
+                <li>A Grande Mentira</li>
+                <li>A Grande Muralha</li>
+                <li>A Gripe</li>
+                <li>A Guarda do Leão: Um Novo Rugido</li>
+                <li>A História sem Fim 1</li>
+                <li>A História Verdadeira</li>
+                <li>A Hora Da Sua Morte</li>
+                <li>A Hora da Virada</li>
+                <li>A Hora do Espanto 2</li>
+                <li>A Hora do Lobo</li>
+                <li>A Hora do Pesadelo 1</li>
+                <li>A Hora do Pesadelo 2: A Vingança de Freddy</li>
+                <li>A Hora do Pesadelo 3: Os Guerreiros dos Sonhos</li>
+                <li>A Hora do Pesadelo 4: O Mestre dos Sonhos</li>
+                <li>A Hora do Pesadelo 5: O Maior Horror de Freddy</li>
+                <li>A Hora do Pesadelo 6: Pesadelo Final A Morte de Freddy</li>
+                <li>A Hora do Pesadelo 7: O Retorno de Freddy Krueger</li>
+                <li>A Hora do Rush 1</li>
+                <li>A Hora do Rush 2</li>
+                <li>A Hora do Rush 3</li>
+                <li>A Hospedeira</li>
+                <li>A Ilha</li>
+                <li>A Ilha dos Mortos</li>
+                <li>A Incrível História de Adaline</li>
+                <li>A Invasora</li>
+                <li>A Justiceira</li>
+                <li>A Lagoa Azul 1</li>
+                <li>A Lenda</li>
+                <li>A Lenda de Tarzan</li>
+                <li>A Lenda do Cavalo Prateado</li>
+                <li>A Lenda do Tesouro Perdido</li>
+                <li>A Lenda dos Guardiões</li>
+                <li>A Liga Extraordinária</li>
+                <li>A Lista de Schindler</li>
+                <li>A Luneta do Tempo</li>
+                <li>A Luz Divina</li>
+                <li>A Magia de um Sonho</li>
+                <li>A Mais Louca Sexta-Feira em Apuros</li>
+                <li>A Maldição da Bela Adormecida</li>
+                <li>A Maldição da Casa Winchester</li>
+                <li>A Maldição da Chorona</li>
+                <li>A Maldição da Sétima Lua</li>
+                <li>A Maldição de Chucky</li>
+                <li>A Maratona de Brittany</li>
+                <li>A Marca do Demônio</li>
+                <li>A Melhor Escolha</li>
+                <li>A Menina e o Leão</li>
+                <li>A Mentira</li>
+                <li>A Morte de Stalin</li>
+                <li>A Morte do Superman</li>
+                <li>A Morte lhe Cai Bem: O Filme</li>
+                <li>A Morte te dá Parabéns 1</li>
+                <li>A Morte te dá Parabéns 2</li>
+                <li>A Mosca 1</li>
+                <li>A Mula</li>
+                <li>A Mulher de Preto 1</li>
+                <li>A Mulher de Preto 2: Anjo da Morte</li>
+                <li>A Máscara do Zorro</li>
+                <li>A Múmia (2017)</li>
+                <li>A Múmia 1</li>
+                <li>A Múmia 2: O Retorno</li>
+                <li>A Múmia 3: Tumba do Imperador Dragão</li>
+                <li>A Noite do Jogo</li>
+                <li>A Noite nos Persegue</li>
+                <li>A Noiva</li>
+                <li>A Noiva Cadáver</li>
+                <li>A Noiva de Chucky</li>
+                <li>A Nova Onda do Imperador</li>
+                <li>A Noviça Rebelde</li>
+                <li>A Onda</li>
+                <li>A Origem</li>
+                <li>A Origem dos Guardiões</li>
+                <li>A Outra Face</li>
+                <li>A Outra Filha</li>
+                <li>A Outra História Americana</li>
+                <li>A Outra Terra</li>
+                <li>A Paixão de Cristo</li>
+                <li>A Pele Que Habito</li>
+                <li>A Pequena Morte</li>
+                <li>A Pequena Sereia</li>
+                <li>A Primeira Noite de Crime</li>
+                <li>A Princesa e a Plebeia</li>
+                <li>A Princesa e o Sapo</li>
+                <li>A Princesinha</li>
+                <li>A Proposta</li>
+                <li>A Queda de Berlim</li>
+                <li>A Quimica do Amor</li>
+                <li>A Rainha dos Condenados</li>
+                <li>A Rede Social</li>
+                <li>A Senha: Swordfish</li>
+                <li>A Sereia: Lago dos Mortos</li>
+                <li>A Sombra e a Escuridão</li>
+                <li>A Teoria de Tudo</li>
+                <li>A Toda Prova</li>
+                <li>A Torre Negra</li>
+                <li>A Travessia</li>
+                <li>A Trincheira Infinita</li>
+                <li>A Troca</li>
+                <li>A Verdade Nua e Crua</li>
+                <li>A Viagem</li>
+                <li>A Vida em Si</li>
+                <li>A Vida Secreta de Walter Mitty</li>
+                <li>A Vida Secreta de Zoe</li>
+                <li>A Vida é Bela</li>
+                <li>A Vigilante do Amanhã: Ghost in The Shell</li>
+                <li>A Vila</li>
+                <li>A Volta do Todo Poderoso</li>
+                <li>A Volta dos Mortos Vivos 1</li>
+                <li>A Volta dos Mortos Vivos 2</li>
+                <li>A Órfã</li>
+                <li>A Última Jornada</li>
+                <li>A Última Música</li>
+                <li>A-X-L: O Cão Robô</li>
+                <li>Abominável</li>
+                <li>Abraham Lincoln: Caçador de Vampiros</li>
+                <li>Academia de Vampiros</li>
+                <li>Ace Ventura 1: Um Detetive Diferente</li>
+                <li>Ace Ventura 2: Um Maluco na África</li>
+                <li>Acertando o Passo</li>
+                <li>Ad Astra: Rumo às Estrelas</li>
+                <li>Adoráveis Mulheres</li>
+                <li>Advogado do Diabo</li>
+                <li>After (2019)</li>
+                <li>Agente 86</li>
+                <li>Aladdin (1992)</li>
+                <li>Aladdin (2019)</li>
+                <li>Alemão</li>
+                <li>Alexandre</li>
+                <li>Alfa</li>
+                <li>Alice Através do Espelho</li>
+                <li>Alice no País das Maravilhas</li>
+                <li>Alien 1: O 8º Passageiro</li>
+                <li>Alien 2: Sulla terra</li>
+                <li>Alien 3</li>
+                <li>Alien 4: A Ressurreição</li>
+                <li>Alien vs. Predador 1</li>
+                <li>Alien vs. Predador 2</li>
+                <li>Alita: Anjo de Combate</li>
+                <li>Almas Condenadas</li>
+                <li>Alvin e os Esquilos 1</li>
+                <li>Alvin e os Esquilos 1</li>
+                <li>Alvin e os Esquilos 2</li>
+                <li>Alvin e os Esquilos 3</li>
+                <li>Além da Morte</li>
+                <li>Amaldiçoada</li>
+                <li>Amanhecer Violento</li>
+                <li>American Pie 1: A Primeira Vez é Inesquecível</li>
+                <li>American Pie 2: A Segunda Vez é Ainda Melhor</li>
+                <li>American Pie 3: O Casamento</li>
+                <li>American Pie 4: Tocando a Maior Zona</li>
+                <li>American Pie 5: O Último Stifler Vírgem</li>
+                <li>American Pie 6: Caindo em Tentação</li>
+                <li>American Pie 7: O Livro do Amor</li>
+                <li>American Pie 8: O Reencontro</li>
+                <li>Amigos Para Sempre</li>
+                <li>Amityville: O Despertar</li>
+                <li>Amnésia</li>
+                <li>Amor & Outras Drogas</li>
+                <li>Amor e Tulipas</li>
+                <li>Amor Lapidado</li>
+                <li>Amor por Direito</li>
+                <li>Amor.com</li>
+                <li>Anaconda 1</li>
+                <li>Anaconda 2: A Caçada pela Orquídea Sangrenta</li>
+                <li>Anaconda 3</li>
+                <li>Anaconda 4: Rastro de Sangue</li>
+                <li>Anastasia</li>
+                <li>Andar Montar Rodeio: A Virada de Amberley</li>
+                <li>Angry Birds 1: O Filme</li>
+                <li>Angry Birds 2: O Filme</li>
+                <li>Animais Fantásticos 1: Onde Habitam</li>
+                <li>Animais Fantásticos 2: Os Crimes de Grindelwald</li>
+                <li>Aniquilação</li>
+                <li>Anjos Assassinos</li>
+                <li>Anjos da Lei 1</li>
+                <li>Anjos da Lei 2</li>
+                <li>Anjos da Noite 1: Underworld</li>
+                <li>Anjos da Noite 2: A Evolução</li>
+                <li>Anjos da Noite 3: A Rebelião</li>
+                <li>Anjos da Noite 4: O Despertar</li>
+                <li>Anjos da Noite 5: Guerras de Sangue</li>
+                <li>Anjos da Vida: Mais Bravos que o Mar</li>
+                <li>Anna e o Apocalipse</li>
+                <li>Anna: O Perigo Tem Nome</li>
+                <li>Annabelle 1</li>
+                <li>Annabelle 2: A Criação do Mal</li>
+                <li>Annabelle 3: De Volta Para Casa</li>
+                <li>Annapolis</li>
+                <li>Anon</li>
+                <li>Antes de Eu ir</li>
+                <li>Antes Que Eu Me Esqueça</li>
+                <li>Antes que seja tarde</li>
+                <li>Antes que Termine o Dia</li>
+                <li>Aos Treze</li>
+                <li>Apenas Duas Noites</li>
+                <li>Apocalypto</li>
+                <li>Apollo 11 (2019)</li>
+                <li>Aposta Máxima</li>
+                <li>Appaloosa: Uma Cidade sem Lei</li>
+                <li>Apóstolo</li>
+                <li>Aquaman</li>
+                <li>Argo</li>
+                <li>Armageddon</li>
+                <li>Arranha-Céu: Coragem Sem Limite</li>
+                <li>Arraste-me Para o Inferno</li>
+                <li>Artista do Desastre</li>
+                <li>As Apimentadas 3: Tudo ou Nada</li>
+                <li>As Apimentadas 6: Desafio Mundial</li>
+                <li>As Aventuras de Paddington 1</li>
+                <li>As Aventuras de Paddington 2</li>
+                <li>As Aventuras de Peter Pan</li>
+                <li>As Aventuras de Pi</li>
+                <li>As Aventuras de Sharkboy e Lavagirl</li>
+                <li>As Aventuras de Tadeo 2: O Segredo do Rei Midas</li>
+                <li>As Aventuras do Capitão Cueca: O Filme</li>
+                <li>As Aventuras do Dr. Dolittle (Gravado)</li>
+                <li>As Boas Maneiras</li>
+                <li>As Branquelas</li>
+                <li>As Crônicas de Nárnia 1: O Leão a Feiticeira e o Guarda-Roupa</li>
+                <li>As Crônicas de Nárnia 2: Príncipe Caspian</li>
+                <li>As Crônicas de Nárnia 3: A Viagem do Peregrino da Alvorada</li>
+                <li>As Donas da Noite</li>
+                <li>As Excluídas</li>
+                <li>As Férias da Minha Vida</li>
+                <li>As Garotas Da Tragédia</li>
+                <li>As Golpistas</li>
+                <li>As Hereges</li>
+                <li>As Loucas Aventuras de James West</li>
+                <li>As Loucuras de Rose</li>
+                <li>As Mil Palavras</li>
+                <li>As Minas do Rei Salomão</li>
+                <li>As Panteras</li>
+                <li>As Panteras 1</li>
+                <li>As Panteras 2: Detonando</li>
+                <li>As Rainhas da Torcida</li>
+                <li>As Ruínas</li>
+                <li>As Tartarugas Ninja 1</li>
+                <li>As Tartarugas Ninja 2: Fora das Sombras</li>
+                <li>As Trapaceiras</li>
+                <li>As Viúvas</li>
+                <li>Assassin's Creed</li>
+                <li>Assassinato no Expresso do Oriente</li>
+                <li>Assassino a Preço Fixo 1</li>
+                <li>Assassino a Preço Fixo 2: A Ressurreição</li>
+                <li>Assassinos Anônimos</li>
+                <li>Assim na Terra Como no Inferno</li>
+                <li>Atentado em Paris</li>
+                <li>Aterrorizados</li>
+                <li>Atividade Paranormal 1</li>
+                <li>Atividade Paranormal 2</li>
+                <li>Atividade Paranormal 3</li>
+                <li>Atividade Paranormal 4</li>
+                <li>Atividade Paranormal 5: Marcados pelo Mal</li>
+                <li>Atlantis: O Reino Perdido</li>
+                <li>Atos de Violência</li>
+                <li>Atração Perigosa</li>
+                <li>Até o Último Homem</li>
+                <li>Até que a Sorte nos Separe 1</li>
+                <li>Até que a Sorte nos Separe 3: A Falência Final</li>
+                <li>Atômica</li>
+                <li>Avatar</li>
+                <li>Aventuras de Betty</li>
+                <li>Aves de Rapina: Arlequina e sua Emancipação Fantabulosa (Gravado)</li>
+                <li>Aviões 1</li>
+                <li>Aviões 2: Heróis do Fogo ao Resgate</li>
+                <li>Babá Fora de Controle 2: Missão Brasil</li>
+                <li>Bacurau</li>
+                <li>Bad Boys 1</li>
+                <li>Bad Boys 2</li>
+                <li>Bad Boys 3: Para Sempre (Gravado)</li>
+                <li>Bambi 1</li>
+                <li>Bambi 2</li>
+                <li>Barbie e as Agentes Secretas</li>
+                <li>Barbie e as Três Mosqueteiras</li>
+                <li>Barbie e o Castelo de Diamante</li>
+                <li>Barbie e o Portal Secreto</li>
+                <li>Barbie e o Segredo das Fadas</li>
+                <li>Barbie em a Canção de Natal</li>
+                <li>Barbie em Vida de Sereia</li>
+                <li>Barbie: A Princesa e a Popstar</li>
+                <li>Barbie: A Sereia das Pérolas</li>
+                <li>Barbie: Aventura nas Estrelas</li>
+                <li>Barbie: Moda e Magia</li>
+                <li>Barbie: Vida de Sereia 2</li>
+                <li>Bastardos Inglórios</li>
+                <li>Bata Antes de Entrar</li>
+                <li>Bater ou Correr</li>
+                <li>Batman 1: Begins</li>
+                <li>Batman 2: O Cavaleiro das Trevas</li>
+                <li>Batman 3: O Cavaleiro das Trevas Ressurge</li>
+                <li>Batman vs Superman: A Origem da Justiça</li>
+                <li>Bayoneta</li>
+                <li>Baywatch: S.O.S. Malibu</li>
+                <li>Beleza Americana</li>
+                <li>Beleza Oculta</li>
+                <li>Bem-vindo à Selva (2003)</li>
+                <li>Ben-Hur (2016)</li>
+                <li>Benji</li>
+                <li>Big Kill: A Cidade do Medo</li>
+                <li>Big Pai Big Filho</li>
+                <li>Black '47</li>
+                <li>Black Mirror: Bandersnatch</li>
+                <li>Blade 1: O Caçador de Vampiros</li>
+                <li>Blade 2</li>
+                <li>Blade 3: Trinity</li>
+                <li>Blade Runner 2049</li>
+                <li>Bleach</li>
+                <li>Bleed</li>
+                <li>Bloodshot (Gravado e Legendado)</li>
+                <li>Bob Esponja: Um Herói Fora D'Água</li>
+                <li>Bohemian Rhapsody</li>
+                <li>Boneco de Neve</li>
+                <li>Boneco do Mal</li>
+                <li>Bons Meninos</li>
+                <li>Bourne 1: A Identidade</li>
+                <li>Bourne 2: A Supremacia</li>
+                <li>Bourne 3: O Ultimato</li>
+                <li>Bourne 4: O Legado</li>
+                <li>Branca de Neve e o Caçador</li>
+                <li>Branca de Neve e os Sete Anões</li>
+                <li>Bravura Indômita</li>
+                <li>Bridget Jones 1</li>
+                <li>Bridget Jones 2: No Limite da Razão</li>
+                <li>Bridget Jones 3</li>
+                <li>Bright</li>
+                <li>Brightburn: Filho das Trevas</li>
+                <li>Brilho Eterno de uma Mente sem Lembranças</li>
+                <li>Brincando com Fogo</li>
+                <li>Brinquedo Assassino (2019)</li>
+                <li>Brinquedo Assassino 1</li>
+                <li>Brinquedo Assassino 2</li>
+                <li>Brinquedo Assassino 3</li>
+                <li>Brooklyn: Sem Pai Nem Mãe</li>
+                <li>Bruce Lee 1: O Dragão Chinês</li>
+                <li>Bruce Lee 2: A Fúria do Dragão</li>
+                <li>Bruce Lee 3: O Vôo do Dragão</li>
+                <li>Bruce Lee 4: Operação Dragão</li>
+                <li>Bruce Lee 5: O Jogo da Morte</li>
+                <li>Bruce Lee 6: O Jogo da Morte 2</li>
+                <li>Buck O Encantador de Cavalos (Legendado)</li>
+                <li>Bumblebee</li>
+                <li>Busca Implacável 1</li>
+                <li>Busca Implacável 2</li>
+                <li>Busca Implacável 3</li>
+                <li>Buscando...</li>
+                <li>Cada Um na Sua Casa</li>
+                <li>Cada Um Tem a Gêmea Que Merece</li>
+                <li>Cadáver</li>
+                <li>Caindo na Estrada</li>
+                <li>Caixa de Pássaros</li>
+                <li>Camisa de Força</li>
+                <li>Camp Rock 1</li>
+                <li>Camp Rock 2: The Final Jam</li>
+                <li>Campo Minado</li>
+                <li>Capitã Marvel</li>
+                <li>Capitão América 1: O Primeiro Vingador</li>
+                <li>Capitão América 2: O Soldado Invernal</li>
+                <li>Capitão América 3: Guerra Civil</li>
+                <li>Capitão Dentes de Sabre e o Diamante Mágico</li>
+                <li>Cara Cadê Meu Carro?</li>
+                <li>Carcereiros: O Filme</li>
+                <li>Carga Explosiva 1</li>
+                <li>Carga Explosiva 2</li>
+                <li>Carga Explosiva 3</li>
+                <li>Cargo</li>
+                <li>Carros 1</li>
+                <li>Carros 2</li>
+                <li>Carros 3</li>
+                <li>Cartas na Mesa</li>
+                <li>Cartas para Deus</li>
+                <li>Cartas para Julieta</li>
+                <li>Casa Comigo?</li>
+                <li>Casal Improvável</li>
+                <li>Casamento Sangrento</li>
+                <li>Cavaleiro de Copas</li>
+                <li>Cavalo de Guerra</li>
+                <li>Cavalos Selvagens</li>
+                <li>Cazuza: O tempo não pára</li>
+                <li>Caçada Brutal</li>
+                <li>Caçadora de Gigantes</li>
+                <li>Caçadores de Emoção</li>
+                <li>Caçadores de Emoção: Além do Limite</li>
+                <li>Cegonhas: A História que Não te Contaram</li>
+                <li>Cegos Surdos e Loucos</li>
+                <li>Celular: Um Grito de Socorro</li>
+                <li>Cemitério Maldito (2019)</li>
+                <li>Centro de Trauma</li>
+                <li>Chamas da Vingança</li>
+                <li>Chappie</li>
+                <li>Cheque em Branco</li>
+                <li>Chico Xavier</li>
+                <li>CHiPS: O Filme</li>
+                <li>Christopher Robin: Um Reencontro Inesquecível</li>
+                <li>Cidade de Deus</li>
+                <li>Cidade dos Anjos</li>
+                <li>Cidade Louca</li>
+                <li>Cinderela</li>
+                <li>Cinderela Pop</li>
+                <li>Cine Pesadelo</li>
+                <li>Cinquenta Tons de Cinza</li>
+                <li>Cinquenta Tons de Liberdade</li>
+                <li>Cinquenta Tons Mais Escuros</li>
+                <li>Click</li>
+                <li>Closer: Perto Demais</li>
+                <li>Cloverfield: A Partícula de Deus</li>
+                <li>Clube da Luta</li>
+                <li>Cobras</li>
+                <li>Code 8: Renegados</li>
+                <li>Colateral</li>
+                <li>Colheita Maldita 1</li>
+                <li>Colheita Maldita 2: O Sacrifício Final</li>
+                <li>Colheita Maldita 4</li>
+                <li>Colheita Maldita 9: Genesis</li>
+                <li>Colombiana: Em Busca de Vingança</li>
+                <li>Com Amor Simon</li>
+                <li>Com as Próprias Mãos</li>
+                <li>Comando Para Matar</li>
+                <li>Comer Rezar Amar</li>
+                <li>Como Eu Era Antes de Você</li>
+                <li>Como Perder um Homem em 10 Dias</li>
+                <li>Como Se Fosse a Primeira Vez</li>
+                <li>Como Sobreviver a um Ataque Zumbi</li>
+                <li>Como Treinar o Seu Dragão 1</li>
+                <li>Como Treinar o seu Dragão 2</li>
+                <li>Como Treinar o Seu Dragão 3</li>
+                <li>Compramos um Zoológico</li>
+                <li>Con Air: A Rota da Fuga</li>
+                <li>Conan (1997)</li>
+                <li>Conan O Destruidor (1984)</li>
+                <li>Condenação Brutal</li>
+                <li>Conexão Jamaica</li>
+                <li>Conflitos em Família</li>
+                <li>Constantine</li>
+                <li>Contra o Tempo</li>
+                <li>Controle Absoluto</li>
+                <li>Contágio</li>
+                <li>Contágio: Epidemia Mortal</li>
+                <li>Convenção das Bruxas</li>
+                <li>Convidados Sem Honra</li>
+                <li>Corajosos</li>
+                <li>Coraline e o Mundo Secreto</li>
+                <li>Coração Valente</li>
+                <li>Corações Batendo Alto</li>
+                <li>Corações de Ferro</li>
+                <li>Cores da Justiça</li>
+                <li>Coringa</li>
+                <li>Corpo Fechado</li>
+                <li>Corra Que a Polícia Vem Aí 1</li>
+                <li>Corra Que a Polícia Vem Aí 2</li>
+                <li>Corra Que a Polícia Vem Aí 3</li>
+                <li>Corra!</li>
+                <li>Correndo Atrás de Um Pai</li>
+                <li>Corrida Mortal 1</li>
+                <li>Corrida Mortal 2</li>
+                <li>Corrida Mortal 3: Inferno</li>
+                <li>Corrida Mortal 4: Além da Anarquia</li>
+                <li>Corrida Selvagem</li>
+                <li>Corridas Clandestinas</li>
+                <li>Covil de Ladrões</li>
+                <li>Cowboys & Aliens</li>
+                <li>Creed 1: Nascido para Lutar</li>
+                <li>Creed 2</li>
+                <li>Crepúsculo 1</li>
+                <li>Crepúsculo 2: Lua Nova</li>
+                <li>Crepúsculo 3: Eclipse</li>
+                <li>Crepúsculo 4: Amanhecer Parte 1</li>
+                <li>Crepúsculo 5: Amanhecer Parte 2</li>
+                <li>Crianças Malignas</li>
+                <li>Crime Sem Saída</li>
+                <li>Criminosos e Anjos</li>
+                <li>Cruzada</li>
+                <li>Cruzeiro das Loucas</li>
+                <li>Crô em Família</li>
+                <li>Crônicas de Natal</li>
+                <li>Curtindo A Vida Adoidado</li>
+                <li>Cão de Briga</li>
+                <li>Cão Selvagem</li>
+                <li>Círculo de Fogo (2001): Inimigo às Portas</li>
+                <li>Círculo de Fogo 1: Pacific Rim</li>
+                <li>Círculo de Fogo 2: A Revolta</li>
+                <li>Código de Conduta</li>
+                <li>D.U.F.F. Você Conhece tem ou é</li>
+                <li>Damien: A Profecia 2</li>
+                <li>Dança com Lobos</li>
+                <li>Darc</li>
+                <li>Darkman 1: Vingança Sem Rosto</li>
+                <li>Darkman 2: O Retorno de Durant</li>
+                <li>Darkman 3: Enfrentando a Morte</li>
+                <li>David Vs Golias: A Batalha Da Fé</li>
+                <li>De Encontro Com a Vida</li>
+                <li>De Fora Para Dentro</li>
+                <li>De Pernas Pro Ar 3</li>
+                <li>De Quem É a Culpa?</li>
+                <li>De Repente 30</li>
+                <li>De Volta para Casa</li>
+                <li>De Volta para o Futuro 1</li>
+                <li>De Volta para o Futuro 2</li>
+                <li>De Volta para o Futuro 3</li>
+                <li>Deadpool 1</li>
+                <li>Deadpool 2</li>
+                <li>Death Note</li>
+                <li>Debi e Lóide</li>
+                <li>Delorean: Do Motor ao Crime</li>
+                <li>Dennis o Pimentinha</li>
+                <li>Dennis o Pimentinha Ataca Novamente</li>
+                <li>Depois da Escuridão</li>
+                <li>Depois Daquela Montanha</li>
+                <li>Depois do Casamento</li>
+                <li>Desafiando Gigantes</li>
+                <li>Desafiando os Limites</li>
+                <li>Desastre L.A. : O Último Apocalipse Zumbi</li>
+                <li>Descendentes 1</li>
+                <li>Descendentes 2</li>
+                <li>Descendentes 3</li>
+                <li>Descobrindo a Vida</li>
+                <li>Descompensada</li>
+                <li>Desconhecido</li>
+                <li>Desejo de Matar (2018)</li>
+                <li>Desejo de Matar 1</li>
+                <li>Desejo de Matar 2</li>
+                <li>Desejo de Matar 3</li>
+                <li>Desejo de Matar 4: Operação Crackdown</li>
+                <li>Detetives do Prédio Azul 1: O Filme</li>
+                <li>Detetives do Prédio Azul 2: O Mistério Italiano</li>
+                <li>Detona Ralph 1</li>
+                <li>Detona Ralph 2: Quebrando a Internet</li>
+                <li>Deu a Louca nos Bichos</li>
+                <li>Deus Não Está Morto 1</li>
+                <li>Deus Não Está Morto 2</li>
+                <li>Deus Não Está Morto 3: Uma Luz na Escuridão</li>
+                <li>Deuses do Egito</li>
+                <li>Dezessete</li>
+                <li>Dia de Treinamento</li>
+                <li>Dia dos Mortos</li>
+                <li>Diamante de Sangue</li>
+                <li>Dias de Trovão</li>
+                <li>Dinossauro</li>
+                <li>Dirty Dancing 1: Ritmo Quente</li>
+                <li>Dirty Dancing 2: Noites de Havana</li>
+                <li>Dirty Dancing 3: Capoeira Nights</li>
+                <li>Distúrbio</li>
+                <li>Divergente 1</li>
+                <li>Divergente 2: Insurgente</li>
+                <li>Divergente 3: Convergente</li>
+                <li>Divertida Mente</li>
+                <li>Divisão de Homicídios</li>
+                <li>Divórcio</li>
+                <li>Diário de um Adolescente</li>
+                <li>Diário de uma Paixão</li>
+                <li>Diários de Motocicleta</li>
+                <li>Django Livre</li>
+                <li>Do Fundo do Mar 1</li>
+                <li>Do Fundo do Mar 2</li>
+                <li>Do Jeito Que Elas Querem</li>
+                <li>Do Que As Mulheres Gostam</li>
+                <li>Doce Argumento</li>
+                <li>Doce Novembro</li>
+                <li>Doce Vingança 1</li>
+                <li>Doce Vingança 2</li>
+                <li>Doce Vingança 3: A Vingança é Minha</li>
+                <li>Doce Vingança 4: Deja Vu (Legendado)</li>
+                <li>Doce Virginia</li>
+                <li>Dois Loucos Com Sorte</li>
+                <li>Dois Malucos na TV</li>
+                <li>Dois Papas</li>
+                <li>Dois Tiras Fora de Ordem</li>
+                <li>Dois Virgens na América</li>
+                <li>Donnie Darko</li>
+                <li>Doom: A Porta do Inferno</li>
+                <li>Doom: Aniquilação</li>
+                <li>Dora e a Cidade Perdida</li>
+                <li>Doutor Estranho</li>
+                <li>Doutor Sono</li>
+                <li>Downton Abbey: O Filme</li>
+                <li>Doze Homens e Outro Segredo</li>
+                <li>Doze é Demais 1</li>
+                <li>Dracula: A História Nunca Contada</li>
+                <li>Dragon Ball Super: Broly</li>
+                <li>Dragon Ball Z: A Batalha dos Deuses</li>
+                <li>Dragon Ball Z: A Batalha Nos Dois Mundos</li>
+                <li>Dragon Ball Z: Bardock O Pai de Goku</li>
+                <li>Dragon Ball Z: Broly o Lendário Super Saiyajin</li>
+                <li>Dragon Ball Z: Goku o Super Sayajin</li>
+                <li>Dragon Ball Z: O Ataque do Dragão</li>
+                <li>Dragon Ball Z: O Combate Final Bio-Broly</li>
+                <li>Dragon Ball Z: O Homem Mais Forte do Mundo</li>
+                <li>Dragon Ball Z: O Renascimento de Freeza</li>
+                <li>Dragon Ball Z: O Retorno dos Androides</li>
+                <li>Dragon Ball Z: Uma Vingança Para Freeza</li>
+                <li>Dragon Ball: A Lenda de Shenlong</li>
+                <li>Dragão Vermelho</li>
+                <li>Duas de Mim</li>
+                <li>Dude: A Vida é Assim</li>
+                <li>Duelo de Titãs</li>
+                <li>Dumbo (2019)</li>
+                <li>Dunkirk</li>
+                <li>Dupla Explosiva</li>
+                <li>Duplex</li>
+                <li>Durante a Tormenta</li>
+                <li>Duro de Matar 1</li>
+                <li>Duro de Matar 2</li>
+                <li>Duro de Matar 3: A Vingança</li>
+                <li>Duro de Matar 4.0</li>
+                <li>Duro de Matar 5: Um Bom Dia Para Morrer</li>
+                <li>Dívida de Honra</li>
+                <li>E Se Fosse Verdade</li>
+                <li>E.T.: O Extraterrestre</li>
+                <li>Edward Mãos de Tesoura</li>
+                <li>Efeito Borboleta 1</li>
+                <li>Efeito Borboleta 2</li>
+                <li>Efeito Borboleta 3: Revelação</li>
+                <li>Efeito Colateral</li>
+                <li>El Camino: Um Filme de Breaking Bad</li>
+                <li>Ela Dança Eu Danço 1</li>
+                <li>Ela Dança Eu Danço 2</li>
+                <li>Ela Dança Eu Danço 3</li>
+                <li>Ela Dança Eu Danço 4</li>
+                <li>Ela Dança Eu Danço 5: Tudo ou Nada</li>
+                <li>Ela Dança Eu Danço 6</li>
+                <li>Ela é o Cara</li>
+                <li>Ele está de Volta</li>
+                <li>Elektra</li>
+                <li>Eli </li>
+                <li>Em Busca da Justiça</li>
+                <li>Em Busca de Vingança</li>
+                <li>Em Busca do Vale Encantado 1</li>
+                <li>Em Busca do Vale Encantado 2: A Grande Aventura Do Vale</li>
+                <li>Em Busca do Vale Encantado 3: A Época Da Grande Partilha</li>
+                <li>Em Busca do Vale Encantado 4: Viagem Através Da Névoa</li>
+                <li>Em Busca do Vale Encantado 5</li>
+                <li>Em Nome da Lei</li>
+                <li>Em Ritmo de Fuga</li>
+                <li>Emblema de Fé</li>
+                <li>Emoji: O Filme</li>
+                <li>Encantada</li>
+                <li>Encontro Explosivo</li>
+                <li>Encontro Marcado</li>
+                <li>Endiabrado</li>
+                <li>Enquanto Você Dormia</li>
+                <li>Enrolados</li>
+                <li>Entrando Numa Fria</li>
+                <li>Entrando Numa Fria Maior Ainda</li>
+                <li>Entrando Numa Fria Maior Ainda com a Família</li>
+                <li>Entre Facas e Segredos</li>
+                <li>Entre Irmãos</li>
+                <li>Entre Sombras</li>
+                <li>Entrevista Com Deus</li>
+                <li>Entrevista Com o Vampiro</li>
+                <li>Epidemia</li>
+                <li>Era Uma Vez em… Hollywood</li>
+                <li>Era uma vez no México</li>
+                <li>Era Uma Vez Um Deadpool</li>
+                <li>Era Uma Vez...</li>
+                <li>Era uma Vez: Anastasia</li>
+                <li>Escobar: A Traição</li>
+                <li>Escola de Rock</li>
+                <li>Escrito nas Estrelas</li>
+                <li>Espartalhões</li>
+                <li>Esporte Sangrento</li>
+                <li>Esposa de Mentirinha</li>
+                <li>Espíritos 1: A Morte Esta Ao Seu Lado</li>
+                <li>Espíritos 2: Você nunca está sozinho</li>
+                <li>Esquadrão 6</li>
+                <li>Esquadrão Classe A</li>
+                <li>Esquadrão Suicida</li>
+                <li>Esqueceram de Mim 1</li>
+                <li>Esqueceram de Mim 2: Perdido em Nova York</li>
+                <li>Esqueceram de Mim 3</li>
+                <li>Estrada Sem Lei</li>
+                <li>Estrelas Além do Tempo</li>
+                <li>Eu Não Sou um Homem Fácil</li>
+                <li>Eu os Declaro Marido e... Larry</li>
+                <li>Eu Sei o que Vocês Fizeram no Verão Passado</li>
+                <li>Eu Sou a Fúria</li>
+                <li>Eu Sou a Lenda</li>
+                <li>Eu Só Posso Imaginar</li>
+                <li>Eu Tonya</li>
+                <li>Evereste</li>
+                <li>Evocando Espíritos 1</li>
+                <li>Evocando Espíritos 2</li>
+                <li>Exorcismos e Demônios</li>
+                <li>Experiência 2: A Mutação</li>
+                <li>Exterminadores do Além Contra a Loira do Banheiro</li>
+                <li>Extermínio 1</li>
+                <li>Extermínio 2</li>
+                <li>Extinção</li>
+                <li>Extraordinário</li>
+                <li>Fala Sério Mãe!</li>
+                <li>Falcão Negro em Perigo</li>
+                <li>Falcão: O Campeão dos Campeões</li>
+                <li>Família do Bagulho</li>
+                <li>Faroeste Caboclo</li>
+                <li>Fascinação Mortal 4</li>
+                <li>Favela</li>
+                <li>Feito na América</li>
+                <li>Felicidade por um Fio</li>
+                <li>Festa no Céu</li>
+                <li>Filha do Mal</li>
+                <li>Filhos da Esperança</li>
+                <li>Fim dos Dias</li>
+                <li>Fim dos Tempos</li>
+                <li>Fique Rico ou Morra Tentando</li>
+                <li>Flicka 1</li>
+                <li>Flicka 2</li>
+                <li>Flicka 3</li>
+                <li>Fogo Contra Fogo</li>
+                <li>Foi Apenas Um Sonho</li>
+                <li>Fome de Poder</li>
+                <li>Fora de Série</li>
+                <li>Ford vs Ferrari</li>
+                <li>FormiguinhaZ</li>
+                <li>Forrest Gump: O Contador de Histórias</li>
+                <li>Fragmentado</li>
+                <li>Free Willy 1</li>
+                <li>Free Willy 2: A Aventura Continua</li>
+                <li>Free Willy 3: O Resgate</li>
+                <li>Frozen 2 (Legendado)</li>
+                <li>Frozen: Febre Congelante</li>
+                <li>Frozen: Uma Aventura Congelante</li>
+                <li>Férias do Barulho</li>
+                <li>Férias Frustradas</li>
+                <li>Férias Frustradas de Verão</li>
+                <li>Fúria de Titãs 1</li>
+                <li>Fúria de Titãs 2</li>
+                <li>Fúria Em Alto Mar</li>
+                <li>Fúria em Duas Rodas</li>
+                <li>Fúria Sobre Rodas</li>
+                <li>G.I. Joe 1: A Origem de Cobra</li>
+                <li>G.I. Joe 2: Retaliação</li>
+                <li>Galinha Pintadinha 1</li>
+                <li>Galinha Pintadinha 2</li>
+                <li>Galinha Pintadinha 3</li>
+                <li>Galinha Pintadinha 4</li>
+                <li>Gantz: O</li>
+                <li>Garota Exemplar</li>
+                <li>Garota Infernal</li>
+                <li>Garota Mimada</li>
+                <li>Garotos em Guerra</li>
+                <li>Gato de Botas</li>
+                <li>Gavin: Um Ratinho Corajoso</li>
+                <li>Gente de Bem</li>
+                <li>Gente Grande 1</li>
+                <li>Gente Grande 2</li>
+                <li>Ghost: Do Outro Lado da Vida</li>
+                <li>Gigantes de Aço</li>
+                <li>Gigantes em Luta</li>
+                <li>Gladiador</li>
+                <li>Gnomeu e Julieta 1</li>
+                <li>Gnomeu e Julieta 2: O Mistério do Jardim</li>
+                <li>Godzilla</li>
+                <li>Godzilla II: Rei dos Monstros</li>
+                <li>Gol! 1: O Sonho Impossível</li>
+                <li>Gol! 2: Vivendo o Sonho</li>
+                <li>Gol! 3: Assumindo o Mundo</li>
+                <li>Golpe Baixo</li>
+                <li>Golpe Duplo</li>
+                <li>Gonzaga: De Pai Pra Filho</li>
+                <li>Goosebumps: Monstros e Arrepios</li>
+                <li>Gotti: O Chefe da Máfia</li>
+                <li>Grace: Entre a Fé e a Fama</li>
+                <li>Grandes Esperanças</li>
+                <li>Graças a Deus</li>
+                <li>Grease: Nos Tempos da Brilhantina</li>
+                <li>Green Book: O Guia</li>
+                <li>Grinch</li>
+                <li>Gritos Mortais</li>
+                <li>Guardiões da Galáxia 1</li>
+                <li>Guardiões da Galáxia 2</li>
+                <li>Guerra Mundial Z</li>
+                <li>Guerra é Guerra!</li>
+                <li>Guerreira de Sangue</li>
+                <li>Guerreiro da Escuridão</li>
+                <li>Hackers: Piratas de Computador</li>
+                <li>Halloween (2018)</li>
+                <li>Halloween 1: A Noite do Terror</li>
+                <li>Halloween 2: O Pesadelo Continua</li>
+                <li>Halloween 3: A Noite das Bruxas</li>
+                <li>Halloween 4: O Retorno de Michael Myers</li>
+                <li>Halloween 5: A Vingança de Michael Myers</li>
+                <li>Halloween 6: A Última Vingança</li>
+                <li>Halloween 7: H20 20 Anos Depois</li>
+                <li>Halloween 8: Ressurreição</li>
+                <li>Halloween II (2009)</li>
+                <li>Halloween: O Início</li>
+                <li>Han Solo: Uma História Star Wars</li>
+                <li>Hancock</li>
+                <li>Hannibal 1</li>
+                <li>Hannibal 2: A Origem do Mal</li>
+                <li>Hardball: O Jogo da Vida</li>
+                <li>Harry Potter 1: A Pedra Filosofal</li>
+                <li>Harry Potter 2: A Câmara Secreta</li>
+                <li>Harry Potter 3: O Prisioneiro de Azkaban</li>
+                <li>Harry Potter 4: O Cálice de Fogo</li>
+                <li>Harry Potter 5: A Ordem da Fênix</li>
+                <li>Harry Potter 6: O Enigma do Príncipe</li>
+                <li>Harry Potter 7: As Relíquias da Morte parte 1</li>
+                <li>Harry Potter 8: As Relíquias da Morte parte 2</li>
+                <li>Hellboy (2019)</li>
+                <li>Hellboy 1</li>
+                <li>Hellboy 2: O Exército Dourado</li>
+                <li>Herança de Sangue</li>
+                <li>Hereditário</li>
+                <li>High School Musical 1</li>
+                <li>High School Musical 2</li>
+                <li>High School Musical 3: Ano da Formatura</li>
+                <li>Histórias Assustadoras para Contar no Escuro</li>
+                <li>Histórias Cruzadas</li>
+                <li>Hitch: Conselheiro Amoroso</li>
+                <li>Hitman 1: Assassino 47</li>
+                <li>Hitman 2: Agente 47</li>
+                <li>Homem de Ferro 1</li>
+                <li>Homem de Ferro 2</li>
+                <li>Homem de Ferro 3</li>
+                <li>Homem-Aranha 1</li>
+                <li>Homem-Aranha 2</li>
+                <li>Homem-Aranha 3</li>
+                <li>Homem-Aranha no Aranhaverso</li>
+                <li>Homem-Aranha: De Volta ao Lar</li>
+                <li>Homem-Aranha: Longe de Casa</li>
+                <li>Homem-Formiga</li>
+                <li>Homem-Formiga e a Vespa</li>
+                <li>Homens de Coragem</li>
+                <li>Homens De Honra</li>
+                <li>Honey 1: No Ritmo dos Seus Sonhos</li>
+                <li>Honey 2: No Ritmo dos Sonhos</li>
+                <li>Honey 3: No Ritmo do Amor</li>
+                <li>Honey 4: Rise Up and Dance</li>
+                <li>Honra ao Mérito</li>
+                <li>Hook: A Volta do Capitão Gancho</li>
+                <li>Horas de Desespero</li>
+                <li>Horizonte Profundo: Desastre do Golfo</li>
+                <li>Hostis</li>
+                <li>Hotel Artemis</li>
+                <li>Hotel Transilvânia 1</li>
+                <li>Hotel Transilvânia 2</li>
+                <li>Hotel Transilvânia 3: Férias Monstruosas</li>
+                <li>Hércules</li>
+                <li>Idiocracia</li>
+                <li>Ilha do Medo</li>
+                <li>Ilha dos Cachorros</li>
+                <li>Impacto Profundo</li>
+                <li>Implacável</li>
+                <li>Independence Day 1</li>
+                <li>Independence Day 2: O Ressurgimento</li>
+                <li>Indiana Jones 1: Os Caçadores da Arca Perdida</li>
+                <li>Indiana Jones 2: O Templo da Perdição</li>
+                <li>Indiana Jones 3: A Última Cruzada</li>
+                <li>Indiana Jones 4: O Reino da Caveira de Cristal</li>
+                <li>Indústria Americana</li>
+                <li>Inferno</li>
+                <li>Inferno no Faroeste 1</li>
+                <li>Inferno no Faroeste 2</li>
+                <li>Infiltrado na Klan</li>
+                <li>Inimigo do Estado</li>
+                <li>Inimigo Mortal</li>
+                <li>Instinto Predador</li>
+                <li>Instinto Selvagem 1</li>
+                <li>Interestelar</li>
+                <li>Internet: O Filme</li>
+                <li>Invasão a Casa Branca</li>
+                <li>Invasão a Londres</li>
+                <li>Invasão ao Serviço Secreto</li>
+                <li>Invasão de Privacidade</li>
+                <li>Invasão Zumbi</li>
+                <li>Invencível</li>
+                <li>Invencível 2: Caminho da Redenção</li>
+                <li>Invictus</li>
+                <li>Invocação do Mal 1</li>
+                <li>Invocação do Mal 2</li>
+                <li>IO: O Último na Terra</li>
+                <li>Irmão de Espião</li>
+                <li>Irmão Urso 1</li>
+                <li>Irmão Urso 2</li>
+                <li>It: A Coisa</li>
+                <li>It: Capítulo Dois</li>
+                <li>Jack Reacher 1: O Último Tiro</li>
+                <li>Jack Reacher 2: Sem Retorno</li>
+                <li>Jack: O Caçador de Gigantes</li>
+                <li>Jane Eyre</li>
+                <li>Jesus de Nazaré 1</li>
+                <li>Jesus de Nazaré 2</li>
+                <li>Jesus de Nazaré 3</li>
+                <li>Jesus de Nazaré 4</li>
+                <li>Joe Kidd</li>
+                <li>Jogador N° 1</li>
+                <li>Jogo de Amor em Las Vegas</li>
+                <li>Jogo Perigoso</li>
+                <li>Jogos Mortais I</li>
+                <li>Jogos Mortais II</li>
+                <li>Jogos Mortais III</li>
+                <li>Jogos Mortais IV</li>
+                <li>Jogos Mortais V</li>
+                <li>Jogos Mortais VI</li>
+                <li>Jogos Mortais: Jigsaw</li>
+                <li>Jogos Mortais: O Final</li>
+                <li>Jogos Vorazes 1</li>
+                <li>Jogos Vorazes 2: Em Chamas</li>
+                <li>Jogos Vorazes 3: A Esperança parte 1</li>
+                <li>Jogos Vorazes 4: A Esperança parte 2</li>
+                <li>John Wick 1: De Volta ao Jogo</li>
+                <li>John Wick 2: Um Novo Dia Para Matar</li>
+                <li>John Wick 3: Parabellum</li>
+                <li>Johnny English 3.0</li>
+                <li>Jojo Rabbit (Gravado)</li>
+                <li>Jonah Hex: Caçador de Recompensas</li>
+                <li>Jornada nas Estrelas 10: Nêmesis</li>
+                <li>Jornada nas Estrelas 11</li>
+                <li>Jornada nas Estrelas 12: Além da Escuridão</li>
+                <li>Jornada nas Estrelas 13: Sem Fronteiras</li>
+                <li>Jornada nas Estrelas 1: O Filme</li>
+                <li>Jornada nas Estrelas 2: A Ira de Khan</li>
+                <li>Jornada nas Estrelas 3: A procura de Spock</li>
+                <li>Jornada nas Estrelas 4: A Volta para Casa</li>
+                <li>Jornada nas Estrelas 5: A Última Fronteira</li>
+                <li>Jornada nas Estrelas 6: A Terra Desconhecida</li>
+                <li>Jornada nas Estrelas 7: Generations</li>
+                <li>Jornada nas Estrelas 8: Primeiro Contato</li>
+                <li>Jornada nas Estrelas 9: Insurreição</li>
+                <li>Jornada Pela Liberdade</li>
+                <li>João e Maria: Caçadores de Bruxas</li>
+                <li>Julieta</li>
+                <li>Jumanji 2: Próxima Fase (Gravado)</li>
+                <li>Jumanji: Bem-Vindo à Selva</li>
+                <li>Juntos e Misturados</li>
+                <li>Juntos para Sempre</li>
+                <li>Juntos pelo Acaso</li>
+                <li>Jurassic Park 1: O Parque dos Dinossauros</li>
+                <li>Jurassic Park 2: O Mundo Perdido</li>
+                <li>Jurassic Park 3</li>
+                <li>Jurassic World 1: O Mundo dos Dinossauros</li>
+                <li>Jurassic World 2: Reino Ameaçado</li>
+                <li>Já Não Me Sinto Em Casa Nesse Mundo</li>
+                <li>Karate Kid 4: A Nova Aventura</li>
+                <li>Karatê Kid 1: A Hora da Verdade</li>
+                <li>Karatê Kid 2: A Hora da Verdade Continua</li>
+                <li>Karatê Kid 3: O Desafio Final</li>
+                <li>Kardec: A História por Trás do Nome</li>
+                <li>Kart Nervoso</li>
+                <li>Kate & Leopold</li>
+                <li>Kickboxer 1</li>
+                <li>Kickboxer 2:  A Vingança do Dragão</li>
+                <li>Kickboxer 3: A Arte da Guerra</li>
+                <li>Kickboxer 4: O Agressor</li>
+                <li>Kickboxer 5: O Desafio Final</li>
+                <li>Kickboxer 6: A Vingança do Dragão</li>
+                <li>Kickboxer 7: A Retaliação</li>
+                <li>Kingsman 1: Serviço Secreto</li>
+                <li>Kingsman 2: O Círculo Dourado</li>
+                <li>Kong: A Ilha da Caveira</li>
+                <li>Kung Fu Futebol Clube</li>
+                <li>Kung Fu Panda 1</li>
+                <li>Kung Fu Panda 2</li>
+                <li>Kung Fu Panda 3</li>
+                <li>Kung Pow: O Mestre da Kung-Fu-São</li>
+                <li>Kung-fusão</li>
+                <li>La La Land: Cantando Estações</li>
+                <li>Labirinto: A Magia do Tempo </li>
+                <li>Ladrões de Mentes</li>
+                <li>Lagoa Azul 2: De Volta à Lagoa Azul</li>
+                <li>Lanterna Verde</li>
+                <li>Lara Croft: Tomb Raider</li>
+                <li>LBJ: A Esperança de Uma Nação</li>
+                <li>Legalmente Loira 1</li>
+                <li>Legalmente Loira 2</li>
+                <li>Legião</li>
+                <li>Lego Batman: O Filme</li>
+                <li>Lego Ninjago: O Filme</li>
+                <li>Legítimo Rei</li>
+                <li>Lenda Urbana 1</li>
+                <li>Lenda Urbana 2</li>
+                <li>Level 16</li>
+                <li>Liga da Justiça</li>
+                <li>Lilo & Stitch 1</li>
+                <li>Link Perdido</li>
+                <li>Lino: Uma Aventura de Sete Vidas</li>
+                <li>Lion: Uma Jornada para Casa</li>
+                <li>Logan</li>
+                <li>London Fields: Romance Fatal</li>
+                <li>Looney Tunes: De Volta à Ação</li>
+                <li>Loucademia de Polícia 1</li>
+                <li>Loucademia de Polícia 2: A Primeira Missão</li>
+                <li>Loucademia de Polícia 3: De Volta ao Treinamento</li>
+                <li>Loucademia de Polícia 4: O Cidadão se Defende</li>
+                <li>Loucademia de Polícia 5: Missão Miami Beach</li>
+                <li>Loucademia de Polícia 6: Cidade em Estado de Sítio</li>
+                <li>Loucademia de Polícia 7: Missão Moscou</li>
+                <li>Loucas Pra Casar</li>
+                <li>Lua Negra</li>
+                <li>Lucas: Um Intruso no Formigueiro</li>
+                <li>Luccas Neto em: Acampamento de Férias 1</li>
+                <li>Luccas Neto em: Acampamento de Férias 2</li>
+                <li>Luccas Neto em: Dia das Crianças</li>
+                <li>Luccas Neto em: Uma Babá Muito Esquisita</li>
+                <li>Luce</li>
+                <li>Lucy</li>
+                <li>Lucy in the Sky</li>
+                <li>Luna: Em Busca da Verdade</li>
+                <li>Lutador de Rua</li>
+                <li>Lutero</li>
+                <li>Lá Vem os Pais</li>
+                <li>Lágrimas do Sol</li>
+                <li>Ma: Ela Vai Cuidar De Você</li>
+                <li>Mad Max 4: Estrada da Fúria</li>
+                <li>Madagascar 1</li>
+                <li>Madagascar 2: A Grande Escapada</li>
+                <li>Madagascar 3: Os Procurados</li>
+                <li>Madrugada dos Mortos</li>
+                <li>Madrugada Muito Louca 1</li>
+                <li>Madrugada Muito Louca 2</li>
+                <li>Magia Estranha</li>
+                <li>Mais Forte que o Mundo: A História de José Aldo</li>
+                <li>Mais Que Vencedor</li>
+                <li>Mais que Vencedores</li>
+                <li>Mais Uma Sexta-Feira em Apuros</li>
+                <li>Maligno</li>
+                <li>Malévola 1</li>
+                <li>Malévola 2: Dona do Mal</li>
+                <li>Mama</li>
+                <li>Mamma Mia! Lá Vamos Nós de Novo</li>
+                <li>Mamãe: Operação Balada</li>
+                <li>Man Down: A Guerra</li>
+                <li>Mansão Mal-Assombrada</li>
+                <li>Mar em Fúria</li>
+                <li>Marcados para Morrer</li>
+                <li>Maria e João: O Conto das Bruxas (Gravado)</li>
+                <li>Maria Madalena</li>
+                <li>Marido e Mulher</li>
+                <li>Marido Por Acaso</li>
+                <li>Marley & Eu 1</li>
+                <li>Marmaduke</li>
+                <li>Marshall: Igualdade e Justiça</li>
+                <li>Mary Shelley</li>
+                <li>Massacre no Bairro Japonês</li>
+                <li>Matrix 1</li>
+                <li>Matrix 2: Reloaded</li>
+                <li>Matrix 3: Revolutions</li>
+                <li>Mayhem: Senhores Do Caos</li>
+                <li>Maze Runner 1: Correr ou Morrer</li>
+                <li>Maze Runner 2: Prova de Fogo</li>
+                <li>Maze Runner 3: A Cura Mortal</li>
+                <li>Mazzaropi: A Banda das Velhas Virgens</li>
+                <li>Mazzaropi: A Carrocinha</li>
+                <li>Mazzaropi: As Aventuras de Pedro Malasartes</li>
+                <li>Mazzaropi: Betão Ronca Ferro</li>
+                <li>Mazzaropi: Candinho</li>
+                <li>Mazzaropi: Casinha Pequenina</li>
+                <li>Mazzaropi: Chico Fumaça</li>
+                <li>Mazzaropi: Chofer de Praça</li>
+                <li>Mazzaropi: Fuzileiro do Amor</li>
+                <li>Mazzaropi: Jeca Contra o Capeta</li>
+                <li>Mazzaropi: Jeca e Seu Filho Preto</li>
+                <li>Mazzaropi: Jeca Tatu</li>
+                <li>Mazzaropi: Jecão... Um Fofoqueiro no Céu</li>
+                <li>Mazzaropi: Meu Japão Brasileiro</li>
+                <li>Mazzaropi: Nadando em Dinheiro</li>
+                <li>Mazzaropi: No Paraíso das Solteironas</li>
+                <li>Mazzaropi: O Cineasta das Platéias</li>
+                <li>Mazzaropi: O Corintiano</li>
+                <li>Mazzaropi: O Gato de Madame</li>
+                <li>Mazzaropi: O Grande Xerife</li>
+                <li>Mazzaropi: O Jeca e a Freira</li>
+                <li>Mazzaropi: O Jeca e a Égua Milagrosa</li>
+                <li>Mazzaropi: O Jeca Macumbeiro</li>
+                <li>Mazzaropi: O Lamparina</li>
+                <li>Mazzaropi: O Noivo da Girafa</li>
+                <li>Mazzaropi: O Puritano da Rua Augusta</li>
+                <li>Mazzaropi: O Vendedor de Linguiça</li>
+                <li>Mazzaropi: Portugal... Minha Saudade</li>
+                <li>Mazzaropi: Sai da Frente</li>
+                <li>Mazzaropi: Tristeza do Jeca</li>
+                <li>Mazzaropi: Um Caipira em Bariloche</li>
+                <li>Mazzaropi: Uma Pistola Para Djeca</li>
+                <li>Mazzaropi: Zé do Periquito</li>
+                <li>Medo Profundo</li>
+                <li>Medo Profundo: O Segundo Ataque</li>
+                <li>Megamente</li>
+                <li>Megan Leavey</li>
+                <li>Megarromântico</li>
+                <li>Megatubarão</li>
+                <li>Melanie: A Última Esperança</li>
+                <li>Memórias de um Assassino</li>
+                <li>Menendez: Irmãos de Sangue</li>
+                <li>Meninas Malvadas 1</li>
+                <li>Meninas Malvadas 2</li>
+                <li>Mens@gem Para Você</li>
+                <li>Mente Criminosa</li>
+                <li>Mentes Sombrias</li>
+                <li>Mergulho Radical</li>
+                <li>Meu Amigo Enzo</li>
+                <li>Meu Amigo O Dragão</li>
+                <li>Meu Amigo Vampiro</li>
+                <li>Meu Bebê</li>
+                <li>Meu Ex é um Espião</li>
+                <li>Meu Malvado Favorito 1</li>
+                <li>Meu Malvado Favorito 2</li>
+                <li>Meu Malvado Favorito 3</li>
+                <li>Meu Mestre, Minha Vida</li>
+                <li>Meu Nome é Ninguém</li>
+                <li>Meu Nome é Radio</li>
+                <li>Meu Primeiro Amor</li>
+                <li>Meu Primeiro Amor</li>
+                <li>Meu Ódio Será Sua Herança</li>
+                <li>Meus Amigos Dinossauros</li>
+                <li>Meus Vizinhos São um Terror</li>
+                <li>MIB: Homens de Preto 1</li>
+                <li>MIB: Homens de Preto 2</li>
+                <li>MIB: Homens de Preto 3</li>
+                <li>MIB: Homens de Preto Internacional</li>
+                <li>Midsommar: O Mal Não Espera a Noite</li>
+                <li>Midway: Batalha em Alto Mar (Gravado)</li>
+                <li>Milagres de Jesus: O Filme</li>
+                <li>Milagres do Paraíso</li>
+                <li>Millennium 1: Os Homens Que Não Amavam as Mulheres</li>
+                <li>Millennium 2: A Menina que Brincava com Fogo</li>
+                <li>Millennium 3: A Rainha do Castelo de Ar</li>
+                <li>Millennium 4: A Garota na Teia de Aranha</li>
+                <li>Minha Fama de Mau</li>
+                <li>Minha Mãe é uma Peça 1</li>
+                <li>Minha Mãe é uma Peça 2</li>
+                <li>Minha Mãe é Uma Peça 3 (Gravado)</li>
+                <li>Minha Primeira Luta</li>
+                <li>Minha Vida Em Marte</li>
+                <li>Minhas Adoráveis Ex-Namoradas</li>
+                <li>Minions</li>
+                <li>Missão de Honra</li>
+                <li>Missão Impossível 1</li>
+                <li>Missão Impossível 2</li>
+                <li>Missão Impossível 3</li>
+                <li>Missão Impossível 4: Protocolo Fantasma</li>
+                <li>Missão Impossível 5: Nação Secreta</li>
+                <li>Missão Impossível 6: Efeito Fallout</li>
+                <li>Missão Quase Impossível</li>
+                <li>Mistério no Mediterrâneo</li>
+                <li>Moana: Um Mar de Aventuras</li>
+                <li>Modo Avião</li>
+                <li>Mogli: Entre Dois Mundos</li>
+                <li>Mogli: O Menino Lobo</li>
+                <li>Momento Crítico</li>
+                <li>Monstros S.A.</li>
+                <li>Mortal Kombat 1</li>
+                <li>Morte no Funeral</li>
+                <li>Morte Súbita</li>
+                <li>Motoqueiro Fantasma 1</li>
+                <li>Motoqueiro Fantasma 2: Espírito de Vingança</li>
+                <li>Motoqueiros Selvagens</li>
+                <li>Mudança de Hábito 1</li>
+                <li>Mudança de Hábito 2</li>
+                <li>Mudo</li>
+                <li>Muita Calma Nessa Hora</li>
+                <li>Muito Bem Acompanhada</li>
+                <li>Mulan 1</li>
+                <li>Mulan 2: A Lenda Continua</li>
+                <li>Mulher-Gato</li>
+                <li>Mulher-Maravilha</li>
+                <li>Mulheres ao Ataque</li>
+                <li>My Little Pony: O Filme</li>
+                <li>Máquina Mortífera 1</li>
+                <li>Máquina Mortífera 2</li>
+                <li>Máquina Mortífera 3</li>
+                <li>Máquina Mortífera 4</li>
+                <li>Máquinas Mortais</li>
+                <li>Mãe e Muito Mais</li>
+                <li>mãe!</li>
+                <li>Mãos Talentosas: A História de Benjamin Carson</li>
+                <li>Música Amigos e Festa</li>
+                <li>Na Escuridão do Oceano (Legendado)</li>
+                <li>Na Trilha da Fama</li>
+                <li>Nada a Esconder</li>
+                <li>Nada a Perder 1</li>
+                <li>Nada a Perder 2: Não Se Pode Esconder a Verdade</li>
+                <li>Nadando Com Homens</li>
+                <li>Nasce Uma Estrela</li>
+                <li>Nascido Para Matar</li>
+                <li>Navio Fantasma</li>
+                <li>Nem que a Vaca Tussa</li>
+                <li>Nerve: Um Jogo Sem Regras</li>
+                <li>Next Gen</li>
+                <li>Ninguém Segura Esse Bebê</li>
+                <li>No Coração da Escuridão</li>
+                <li>No Coração do Mar</li>
+                <li>No Limite do Amanhã</li>
+                <li>No Olho do Furacão</li>
+                <li>No Olho do Tornado</li>
+                <li>No Pique de Nova York</li>
+                <li>Nocaute</li>
+                <li>Noite de Terror 2</li>
+                <li>Noite do Terror 1</li>
+                <li>Noites de Tormenta</li>
+                <li>Norbit</li>
+                <li>Nosso Lar</li>
+                <li>Nove Meses</li>
+                <li>Noé</li>
+                <li>Nunca Diga Seu Nome</li>
+                <li>Nunca Fui Beijada</li>
+                <li>Náufrago</li>
+                <li>Não Aceitamos Devoluções</li>
+                <li>Não Vai Dar</li>
+                <li>Nós</li>
+                <li>Nós Somos os Campeões 1</li>
+                <li>Nós Somos os Campeões 2</li>
+                <li>Número 23</li>
+                <li>O 12º Homem</li>
+                <li>O Abutre</li>
+                <li>O Albergue 1</li>
+                <li>O Albergue 2</li>
+                <li>O Albergue 3</li>
+                <li>O Alvo</li>
+                <li>O Amor Dá Trabalho</li>
+                <li>O Amor Não Tira Férias</li>
+                <li>O Amor É Cego</li>
+                <li>O Anel do Rei: A Última Batalha</li>
+                <li>O Anjo Malvado</li>
+                <li>O Apocalipse</li>
+                <li>O Assassinato de Jesse James pelo Covarde Robert Ford</li>
+                <li>O Assassino: O Primeiro Alvo</li>
+                <li>O Ataque do Tubarão de 5 Cabeças</li>
+                <li>O Ataque dos Vermes Malditos 1</li>
+                <li>O Ataque dos Vermes Malditos 2</li>
+                <li>O Ataque dos Vermes Malditos 3</li>
+                <li>O Ataque dos Vermes Malditos 4: O Começo da Lenda</li>
+                <li>O Ataque dos Vermes Malditos 5: Linhas de Sangue</li>
+                <li>O Ataque dos Vermes Malditos 6: Um Dia Frio no Inferno</li>
+                <li>O Atirador: O Extermínio Final</li>
+                <li>O Aviador</li>
+                <li>O Babadook</li>
+                <li>O Banqueiro</li>
+                <li>O Banqueiro da Resistência</li>
+                <li>O Beijo do Dragão</li>
+                <li>O Bicho Vai Pegar 1</li>
+                <li>O Bicho Vai Pegar 2</li>
+                <li>O Bicho Vai Pegar 3</li>
+                <li>O Bom Dinossauro</li>
+                <li>O Bom Gigante Amigo</li>
+                <li>O Bom Vizinho</li>
+                <li>O Candidato Honesto 1</li>
+                <li>O Candidato Honesto 2</li>
+                <li>O Canto da Sereia</li>
+                <li>O Carma De Um Assassino</li>
+                <li>O Caso de Richard Jewell</li>
+                <li>O Caçador e a Rainha do Gelo</li>
+                <li>O Chacal</li>
+                <li>O Chamado 1</li>
+                <li>O Chamado 2</li>
+                <li>O Chamado 3</li>
+                <li>O Chamado do Mal</li>
+                <li>O Clube dos Canibais</li>
+                <li>O Clube dos Meninos Bilionarios</li>
+                <li>O Colecionador de Corpos 1</li>
+                <li>O Colecionador de Corpos 2</li>
+                <li>O Colecionador de Ossos</li>
+                <li>O Conde de Monte Cristo</li>
+                <li>O Confronto</li>
+                <li>O Contador</li>
+                <li>O Conto</li>
+                <li>O Corcel Negro</li>
+                <li>O Corcunda de Notre Dame</li>
+                <li>O Culto</li>
+                <li>O Culto de Chucky</li>
+                <li>O Curioso Caso de Benjamin Button</li>
+                <li>O Céu é de Verdade</li>
+                <li>O Círculo</li>
+                <li>O Date Perfeito</li>
+                <li>O Declínio</li>
+                <li>O Demônio do Sono</li>
+                <li>O Destino de Júpiter</li>
+                <li>O Destino de Uma Nação</li>
+                <li>O Dia Depois de Amanhã</li>
+                <li>O Dia em que a Terra Parou</li>
+                <li>O Diabo Veste Prada</li>
+                <li>O Ditador</li>
+                <li>O Diário da Princesa 1</li>
+                <li>O Diário da Princesa 2: Casamento Real</li>
+                <li>O Diário de Uma Adolescente</li>
+                <li>O Dono da Festa</li>
+                <li>O Doutrinador</li>
+                <li>O Duelo</li>
+                <li>O Enviado Do Mal</li>
+                <li>O Escorpião Rei 1</li>
+                <li>O Escorpião Rei 2: A Saga de um Guerreiro</li>
+                <li>O Escorpião Rei 3: Batalha Pela Redenção</li>
+                <li>O Escorpião Rei 4: Na Busca Pelo Poder</li>
+                <li>O Escorpião Rei 5: O Livro das Almas</li>
+                <li>O Espaço Entre Nós</li>
+                <li>O Espetacular Homem-Aranha 1</li>
+                <li>O Espetacular Homem-Aranha 2: A Ameaça de Electro</li>
+                <li>O Estado das Coisas</li>
+                <li>O Estrangeiro</li>
+                <li>O Estranho Mundo de Jack</li>
+                <li>O Exorcismo de Emily Rose</li>
+                <li>O Expresso Polar</li>
+                <li>O Exterminador do Futuro 1</li>
+                <li>O Exterminador do Futuro 2: O Julgamento Final</li>
+                <li>O Exterminador do Futuro 3: A Rebelião das Máquinas</li>
+                <li>O Exterminador do Futuro 4: A Salvação</li>
+                <li>O Exterminador do Futuro 5: Gênesis</li>
+                <li>O Exterminador do Futuro 6: Destino Sombrio</li>
+                <li>O Fabuloso Destino de Amélie Poulain</li>
+                <li>O Fada do Dente</li>
+                <li>O Feiticeiro e a Serpente Branca</li>
+                <li>O Feitiço do Natal</li>
+                <li>O Filho de Chucky</li>
+                <li>O Filho do Ace Ventura</li>
+                <li>O Filme da Minha Vida</li>
+                <li>O Fim do Mundo</li>
+                <li>O Garoto Da Casa Ao Lado</li>
+                <li>O Grande Assalto</li>
+                <li>O Grande Dragão Branco</li>
+                <li>O Grande Lebowski</li>
+                <li>O Grande Mestre 1</li>
+                <li>O Grande Mestre 2</li>
+                <li>O Grande Mestre 3</li>
+                <li>O Grande Mestre 4: A Batalha Final (Gravado)</li>
+                <li>O Grito 1</li>
+                <li>O Grito 2</li>
+                <li>O Grito 3</li>
+                <li>O Guarda-Costas</li>
+                <li>O Guarda-Costas em Ação</li>
+                <li>O Guardião Invisível</li>
+                <li>O Herdeiro das Drogas</li>
+                <li>O Hobbit 1: Uma Jornada Inesperada</li>
+                <li>O Hobbit 2: A Desolação de Smaug</li>
+                <li>O Hobbit 3: A Batalha dos Cinco Exércitos</li>
+                <li>O Homem Bicentenário</li>
+                <li>O Homem da Máscara de Ferro</li>
+                <li>O Homem das Cavernas</li>
+                <li>O Homem de Aço</li>
+                <li>O Homem Invisível</li>
+                <li>O Homem Perfeito</li>
+                <li>O Homem Que Desafiou o Diabo</li>
+                <li>O Homem Que Inventou o Natal</li>
+                <li>O Homem que Mudou o Jogo</li>
+                <li>O Iluminado</li>
+                <li>O Ilusionista</li>
+                <li>O Imbatível 1</li>
+                <li>O Imbatível 2: O Lutador</li>
+                <li>O Imbatível 3: A Redenção</li>
+                <li>O Imbatível 4: Boyka</li>
+                <li>O Impossível</li>
+                <li>O Império (do Besteirol) Contra-Ataca: Reboot</li>
+                <li>O Incrível Hulk</li>
+                <li>O Inferno de Dante</li>
+                <li>O Informante</li>
+                <li>O Intruso</li>
+                <li>O Invisível</li>
+                <li>O Irlandês</li>
+                <li>O Jardim das Aflições</li>
+                <li>O Jardim Secreto</li>
+                <li>O Jardineiro Fiel</li>
+                <li>O Jogo da Imitação</li>
+                <li>O Juiz</li>
+                <li>O Lar das Crianças Peculiares</li>
+                <li>O Leitor</li>
+                <li>O Limite da Traição</li>
+                <li>O Livro de Eli</li>
+                <li>O Livro de Gênesis</li>
+                <li>O Livro de Henry</li>
+                <li>O Lobo de Wall Street</li>
+                <li>O Mago das Mentiras</li>
+                <li>O Manicômio</li>
+                <li>O Massacre da Serra Elétrica 1</li>
+                <li>O Massacre da Serra Elétrica 2</li>
+                <li>O Massacre da Serra Elétrica 3</li>
+                <li>O Massacre da Serra Elétrica: O Início</li>
+                <li>O Matador</li>
+                <li>O Medalhão</li>
+                <li>O Melhor Amigo da Noiva</li>
+                <li>O Melhor Presente é o Amor</li>
+                <li>O Menino de Ouro</li>
+                <li>O Menino do Pijama Listrado</li>
+                <li>O Menino que Descobriu o Vento</li>
+                <li>O Menino Que Queria Ser Rei</li>
+                <li>O Mentiroso</li>
+                <li>O Mestre das Armas</li>
+                <li>O Mistério de Grace</li>
+                <li>O Mistério do Farol</li>
+                <li>O Mistério do Relógio na Parede</li>
+                <li>O Máskara</li>
+                <li>O Nevoeiro</li>
+                <li>O Noivo da Minha Melhor Amiga</li>
+                <li>O Nome da Morte</li>
+                <li>O Núcleo: Missão ao Centro da Terra</li>
+                <li>O Operário</li>
+                <li>O Pacote</li>
+                <li>O Parque dos Sonhos</li>
+                <li>O Passageiro</li>
+                <li>O Patriota</li>
+                <li>O Pequenino</li>
+                <li>O Pequeno Grande Time</li>
+                <li>O Pequeno Príncipe</li>
+                <li>O Pequeno Stuart Little 1</li>
+                <li>O Peregrino: Uma Jornada para o Céu</li>
+                <li>O Pestinha 1</li>
+                <li>O Pestinha 2</li>
+                <li>O Pianista</li>
+                <li>O Plano Imperfeito</li>
+                <li>O Plano Perfeito 1</li>
+                <li>O Plano Perfeito 2</li>
+                <li>O Poder e a Lei</li>
+                <li>O Poderoso Chefinho</li>
+                <li>O Poderoso Chefão</li>
+                <li>O Poderoso Chefão: Parte II</li>
+                <li>O Poderoso Chefão: Parte III</li>
+                <li>O Poço</li>
+                <li>O Predador (2018)</li>
+                <li>O Predador 1</li>
+                <li>O Predador 2: A Caçada Continua</li>
+                <li>O Preço da Liberdade</li>
+                <li>O Preço do Amanhã</li>
+                <li>O Primeiro Homem</li>
+                <li>O Primeiro Milhão</li>
+                <li>O Procurado</li>
+                <li>O Protetor 1</li>
+                <li>O Protetor 2</li>
+                <li>O Príncipe do Natal</li>
+                <li>O Quarto de Jack</li>
+                <li>O Quarto dos Desejos</li>
+                <li>O Que Será de Nozes? 1</li>
+                <li>O Que Será de Nozes? 2</li>
+                <li>O Que Te Faz Mais Forte</li>
+                <li>O Quebra-Cabeça</li>
+                <li>O Quebra-Nozes e os Quatro Reinos</li>
+                <li>O Refugiado</li>
+                <li>O Regresso</li>
+                <li>O Rei</li>
+                <li>O Rei do Show</li>
+                <li>O Rei Leão (2019)</li>
+                <li>O Rei Leão 1</li>
+                <li>O Rei Leão 2: O Reino de Simba</li>
+                <li>O Rei Leão 3: Hakuna Matata</li>
+                <li>O Reino Gelado 1</li>
+                <li>O Reino Gelado 2</li>
+                <li>O Reino Gelado 3</li>
+                <li>O Reino Proibido</li>
+                <li>O Resgate do Soldado Ryan</li>
+                <li>O Retorno de Mary Poppins</li>
+                <li>O Retorno do Dragão: A Cidade Perdida</li>
+                <li>O Ritual</li>
+                <li>O Sacrifício do Cervo Sagrado</li>
+                <li>O Segredo dos Animais</li>
+                <li>O Senhor das Armas</li>
+                <li>O Senhor dos Anéis 1: A Sociedade do Anel</li>
+                <li>O Senhor dos Anéis 2: As Duas Torres</li>
+                <li>O Senhor dos Anéis 3: O Retorno do Rei</li>
+                <li>O Seu Jeito de Andar</li>
+                <li>O Sexto Sentido</li>
+                <li>O Shaolin do Sertão</li>
+                <li>O Show de Truman</li>
+                <li>O Silêncio</li>
+                <li>O Silêncio da Cidade Branca</li>
+                <li>O Silêncio dos Inocentes</li>
+                <li>O Sobrevivente</li>
+                <li>O Terminal</li>
+                <li>O Terno de 2 Bilhões de Dólares</li>
+                <li>O Titã</li>
+                <li>O Touro Ferdinando</li>
+                <li>O Trote</li>
+                <li>O Turista</li>
+                <li>O Vendedor de Sonhos</li>
+                <li>O Vôo</li>
+                <li>O Zoológico de Varsóvia</li>
+                <li>O Álamo</li>
+                <li>O Ódio que Você Semeia</li>
+                <li>O Último Assalto</li>
+                <li>O Último Caçador de Bruxas</li>
+                <li>O Último Desafio</li>
+                <li>O Último Hotel</li>
+                <li>O Último Samurai</li>
+                <li>O Último Sharknado: Já Estava na Hora</li>
+                <li>O Último Viking</li>
+                <li>Oblivion</li>
+                <li>Obsessão Secreta</li>
+                <li>Oeste Sem Lei</li>
+                <li>Oito Mulheres e Um Segredo</li>
+                <li>Okja</li>
+                <li>Olga</li>
+                <li>Olha Quem Está Falando Agora</li>
+                <li>Olhos da Justiça</li>
+                <li>Olhos Famintos 1</li>
+                <li>Olhos Famintos 2</li>
+                <li>Olhos Famintos 3</li>
+                <li>Onde Está Deus</li>
+                <li>Onde Está Segunda?</li>
+                <li>Onde os Fracos Não Têm Vez</li>
+                <li>Ong-Bak 1: Guerreiro Sagrado</li>
+                <li>Ong-Bak 2: O Começo</li>
+                <li>Ong-Bak 3</li>
+                <li>Onze Homens e um Segredo</li>
+                <li>Operação Babá</li>
+                <li>Operação Big Hero</li>
+                <li>Operação Cupido 1</li>
+                <li>Operação Final</li>
+                <li>Operação Fronteira (2019)</li>
+                <li>Operação Invasão 1</li>
+                <li>Operação Invasão 2</li>
+                <li>Operação Overlord</li>
+                <li>Operação Presente</li>
+                <li>Operação Red Sparrow</li>
+                <li>Operação Valquíria</li>
+                <li>Orgulho e Preconceito</li>
+                <li>Os 33</li>
+                <li>Os Assassinatos de Amityville</li>
+                <li>Os Aventureiros do Bairro Proibido</li>
+                <li>Os Batutinhas</li>
+                <li>Os Batutinhas: Uma Nova Aventura</li>
+                <li>Os Cavaleiros do Zodíaco 1: O Santo Guerreiro</li>
+                <li>Os Cavaleiros do Zodíaco 2: A Grande Batalha dos Deuses</li>
+                <li>Os Cavaleiros do Zodíaco 3: A Lenda dos Defensores de Atena</li>
+                <li>Os Cavaleiros do Zodíaco 4: Os Guerreiros do Armageddon</li>
+                <li>Os Cavaleiros do Zodíaco 5: Prólogo do Céu</li>
+                <li>Os Caça-Fantasmas 1</li>
+                <li>Os Caça-Fantasmas 2</li>
+                <li>Os Condenados 1</li>
+                <li>Os Condenados 2</li>
+                <li>Os Crimes de Limehouse</li>
+                <li>Os Croods 1</li>
+                <li>Os Delírios de Consumo de Becky Bloom</li>
+                <li>Os Deuses Devem Estar Loucos 1</li>
+                <li>Os Deuses Devem Estar Loucos 2</li>
+                <li>Os Deuses Devem Estar Loucos 3</li>
+                <li>Os Dez Mandamentos: O Filme</li>
+                <li>Os Doze Condenados</li>
+                <li>Os Escravos de Satanás</li>
+                <li>Os Esquenta Banco</li>
+                <li>Os Esquenta-Banco 2: Quebrando As Bolas</li>
+                <li>Os Estagiários</li>
+                <li>Os Estranhos</li>
+                <li>Os Estranhos: Caçada Noturna</li>
+                <li>Os Fantasmas de Scrooge</li>
+                <li>Os Fantasmas se Divertem</li>
+                <li>Os Farofeiros</li>
+                <li>Os Goonies</li>
+                <li>Os Guardiões</li>
+                <li>Os Homens São de Marte... E É Pra Lá Que Eu Vou</li>
+                <li>Os Incríveis 1</li>
+                <li>Os Incríveis 2</li>
+                <li>Os Instrumentos Mortais: Cidade dos Ossos</li>
+                <li>Os Jovens Pistoleiros</li>
+                <li>Os Jovens Titãs em Ação!</li>
+                <li>Os Mercenários 1</li>
+                <li>Os Mercenários 2</li>
+                <li>Os Mercenários 3</li>
+                <li>Os Miseráveis</li>
+                <li>Os Oito Odiados</li>
+                <li>Os Outros</li>
+                <li>Os Outros Caras</li>
+                <li>Os Parças 1</li>
+                <li>Os Parças 2</li>
+                <li>Os Perdedores</li>
+                <li>Os Pinguins de Madagascar</li>
+                <li>Os Pinguins do Papai</li>
+                <li>Os Piratas da Somália</li>
+                <li>Os Renegados</li>
+                <li>Os Sem-Floresta</li>
+                <li>Os Smurfs 1</li>
+                <li>Os Smurfs 2</li>
+                <li>Os Smurfs 3: A Vila Perdida</li>
+                <li>Os Trapalhões e a Árvore da Juventude</li>
+                <li>Os Trapalhões e o Rei do Futebol</li>
+                <li>Os Trapalhões na Guerra dos Planetas</li>
+                <li>Os Trapalhões no Rabo do Cometa</li>
+                <li>Os Trapalhões no Reino da Fantasia</li>
+                <li>Os Trapalhões: A Filha dos Trapalhões</li>
+                <li>Os Trapalhões: A Princesa Xuxa e os Trapalhões</li>
+                <li>Os Trapalhões: Ali Babá e os Quarenta Ladrões</li>
+                <li>Os Trapalhões: O Cangaceiro Trapalhão</li>
+                <li>Os Trapalhões: O Casamento dos Trapalhões</li>
+                <li>Os Trapalhões: O Cinderelo Trapalhão</li>
+                <li>Os Trapalhões: O Incrível Monstro Trapalhão</li>
+                <li>Os Trapalhões: O Mistério de Robin Hood</li>
+                <li>Os Trapalhões: O Trapalhão na Arca de Noé</li>
+                <li>Os Trapalhões: O Trapalhão na Ilha do Tesouro</li>
+                <li>Os Trapalhões: O Trapalhão nas Minas do Rei Salomão</li>
+                <li>Os Trapalhões: O Trapalhão no Planalto dos Macacos</li>
+                <li>Os Trapalhões: Os Heróis Trapalhões Uma Aventura na Selva</li>
+                <li>Os Trapalhões: Os Saltimbancos Trapalhões</li>
+                <li>Os Trapalhões: Os Três Mosqueteiros Trapalhões</li>
+                <li>Os Trapalhões: Robin Hood O Trapalhão da Floresta</li>
+                <li>Os Trapalhões: Simbad O Marujo Trapalhão</li>
+                <li>Os Trapalhões: Uma Escola Atrapalhada</li>
+                <li>Os Três Mosqueteiros</li>
+                <li>Os Três Patetas</li>
+                <li>Os Órfãos (Gravado)</li>
+                <li>Os Últimos na Terra</li>
+                <li>Oscar: Minha Filha quer Casar</li>
+                <li>Ouro e Cobiça</li>
+                <li>Ouro Negro</li>
+                <li>Outro Conto da Nova Cinderela</li>
+                <li>Oz: Mágico e Poderoso</li>
+                <li>P.S. Eu Te Amo</li>
+                <li>Pacto Secreto</li>
+                <li>Pai em Dose Dupla 1</li>
+                <li>Pai em Dose Dupla 2</li>
+                <li>Pais Muito Loucos</li>
+                <li>Paixão Obsessiva</li>
+                <li>Paixão Sem Limites</li>
+                <li>Pantera Negra</li>
+                <li>Papillon</li>
+                <li>Par Perfeito</li>
+                <li>Para Salvar Uma Vida</li>
+                <li>Para Sempre</li>
+                <li>Para Sempre Chape</li>
+                <li>Para Sempre Cinderela</li>
+                <li>Para Sempre Minha Garota</li>
+                <li>Para Sempre Vencedor</li>
+                <li>Para Todos os Garotos que Já Amei</li>
+                <li>Para todos os garotos: P.S. ainda amo você</li>
+                <li>Paranoia</li>
+                <li>Parasitas (Legendado)</li>
+                <li>Parque do Inferno</li>
+                <li>Passageiro 57</li>
+                <li>Passageiros</li>
+                <li>Patrick: Aprendendo a Amar</li>
+                <li>Paul: O Alien Fugitivo</li>
+                <li>Paulo de Tarso e A História do Cristianismo Primitivo</li>
+                <li>Paulo: Apóstolo de Cristo</li>
+                <li>Pearl Harbor</li>
+                <li>Pecados de Guerra</li>
+                <li>Pedido de Amizade</li>
+                <li>Pedro Coelho</li>
+                <li>Peixonauta: O Filme</li>
+                <li>Penetras Bons de Bico</li>
+                <li>Pequena Grande Vida</li>
+                <li>Pequeno Milagre</li>
+                <li>Pequenos Guerreiros</li>
+                <li>Pequenos Monstros</li>
+                <li>Percy Jackson 1: O Ladrão de Raios</li>
+                <li>Percy Jackson 2: O Mar de Monstros</li>
+                <li>Perda Total</li>
+                <li>Perdido em Marte</li>
+                <li>Perfeita Pra Você</li>
+                <li>Perfeita é a Mãe 1</li>
+                <li>Perfeita é a Mãe 2</li>
+                <li>Perfume: A História de um Assassino</li>
+                <li>Perigo Extremo</li>
+                <li>Perigo na Montanha</li>
+                <li>Perseguição: A Estrada da Morte</li>
+                <li>Pesadelos Mortais</li>
+                <li>Pets: A Vida Secreta dos Bichos 1</li>
+                <li>Pets: A Vida Secreta dos Bichos 2</li>
+                <li>Pica-Pau: O Filme</li>
+                <li>Pinóquio</li>
+                <li>Piratas da Informática</li>
+                <li>Piratas do Caribe 1: A Maldição do Pérola Negra</li>
+                <li>Piratas do Caribe 2: O Baú da Morte</li>
+                <li>Piratas do Caribe 3: No Fim do Mundo</li>
+                <li>Piratas do Caribe 4: Navegando em Águas Misteriosas</li>
+                <li>Piratas do Caribe 5: A Vingança de Salazar</li>
+                <li>Pixels</li>
+                <li>Planeta do Tesouro</li>
+                <li>Planeta dos Macacos 1: A Origem</li>
+                <li>Planeta dos Macacos 2: O Confronto</li>
+                <li>Planeta dos Macacos 3: A Guerra</li>
+                <li>Plano de Vôo</li>
+                <li>Platoon</li>
+                <li>Playmobil: O Filme</li>
+                <li>Pocahontas</li>
+                <li>Poderes Extraordinários</li>
+                <li>Podres de Ricos</li>
+                <li>Pokémon: Detetive Pikachu</li>
+                <li>Pokémon: Mewtwo Contra-Ataca! Evolução</li>
+                <li>Pokémon: O Filme (1998)</li>
+                <li>Polar</li>
+                <li>Policial em Apuros 1</li>
+                <li>Policial em Apuros 2</li>
+                <li>Polícia Federal: A Lei é Para Todos</li>
+                <li>Pompeia</li>
+                <li>Ponte para Terabítia</li>
+                <li>Ponto Cego</li>
+                <li>Ponyo: Uma Amizade que Veio do Mar</li>
+                <li>Por Lugares Incríveis</li>
+                <li>Por que eu Senhor?</li>
+                <li>Por um Fio</li>
+                <li>Por um Punhado de Dólares</li>
+                <li>Por um Triz</li>
+                <li>Por uns Dólares a Mais</li>
+                <li>Poseidon</li>
+                <li>Possessão</li>
+                <li>Power Rangers</li>
+                <li>Preciosa: Uma História de Esperança</li>
+                <li>Precisamos Falar Sobre o Kevin</li>
+                <li>Predadores</li>
+                <li>Predadores Assassinos</li>
+                <li>Predadores Assassinos</li>
+                <li>Premonição 1</li>
+                <li>Premonição 2</li>
+                <li>Premonição 3</li>
+                <li>Premonição 4</li>
+                <li>Premonição 5</li>
+                <li>Prenda-me Se For Capaz</li>
+                <li>Presas no Paraíso</li>
+                <li>Preso no Tempo</li>
+                <li>Presságios de um Crime</li>
+                <li>Primeiro da Classe</li>
+                <li>Prisioneiros do Demônio</li>
+                <li>Procurando Dory</li>
+                <li>Procurando Nemo</li>
+                <li>Professor Aloprado 1</li>
+                <li>Professor Aloprado 2: A Famíla Klump</li>
+                <li>Professor Peso Pesado</li>
+                <li>Programado Para Vencer</li>
+                <li>Projeto Gemini</li>
+                <li>Projeto X: Uma Festa Fora de Controle</li>
+                <li>Promessas de Guerra</li>
+                <li>Prometheus 1</li>
+                <li>Prometheus 2 (Alien: Covenant)</li>
+                <li>Próxima Fase: Fugindo de Rancala</li>
+                <li>Próxima Parada: Apocalipse</li>
+                <li>Páginas da Morte</li>
+                <li>Pânico 1</li>
+                <li>Pânico 2</li>
+                <li>Pânico 3</li>
+                <li>Pânico 4</li>
+                <li>Pânico na Floresta 1</li>
+                <li>Pânico na Floresta 2</li>
+                <li>Pânico na Floresta 3</li>
+                <li>Pânico na Floresta 4: Origens Sangrentas</li>
+                <li>Pânico na Floresta 5: Linha de Sangue</li>
+                <li>Pânico na Floresta 6: Último Resort</li>
+                <li>Pânico no Lago 1</li>
+                <li>Pânico no Lago 2</li>
+                <li>Pânico no Lago 3</li>
+                <li>Pânico no Lago 4: O Capítulo Final</li>
+                <li>Pânico no Lago: Projeto Anaconda</li>
+                <li>PéPequeno</li>
+                <li>Quando as Luzes se Apagam</li>
+                <li>Quando em Roma</li>
+                <li>Quando Nos Conhecemos</li>
+                <li>Quando os Anjos Dormem</li>
+                <li>Quarteto Fantástico (2015)</li>
+                <li>Quarteto Fantástico 1</li>
+                <li>Quarteto Fantástico 2: O Surfista Prateado</li>
+                <li>Quarto de Guerra</li>
+                <li>Quase 18</li>
+                <li>Quase Amigos</li>
+                <li>Quase Deuses</li>
+                <li>Quatro Vidas de um Cachorro</li>
+                <li>Quebrando a Banca</li>
+                <li>Quebrando Regras 1</li>
+                <li>Quebrando Regras 2</li>
+                <li>Quebrando Regras 3: Não Se Rendam</li>
+                <li>Queima de Arquivo</li>
+                <li>Queimando Tudo</li>
+                <li>Quem Encontra um Amigo Encontra um Tesouro</li>
+                <li>Quem Quer Ser um Milionário?</li>
+                <li>Quem Sou Eu?</li>
+                <li>Quem vai Ficar com Mary?</li>
+                <li>Querida! Encolhi as Crianças</li>
+                <li>Querido John</li>
+                <li>Questão de Tempo</li>
+                <li>R.I.P.D.: Agentes do Além</li>
+                <li>Rainhas do Crime</li>
+                <li>Rambo 1: Programado Para Matar</li>
+                <li>Rambo 2: A Missão</li>
+                <li>Rambo 3</li>
+                <li>Rambo 4</li>
+                <li>Rambo 5: Até o Fim</li>
+                <li>Rampage: Destruição Total</li>
+                <li>Rastro de Maldade</li>
+                <li>Ratatouille</li>
+                <li>Recuperando a Esperança</li>
+                <li>Recém-Casados</li>
+                <li>RED 1: Aposentados e Perigosos</li>
+                <li>RED 2: Aposentados e Ainda Mais Perigosos</li>
+                <li>Rede de Corrupção</li>
+                <li>Refém do Jogo</li>
+                <li>Rei Arthur: A Lenda da Espada</li>
+                <li>Reino Escondido</li>
+                <li>Relatos Selvagens</li>
+                <li>Relação em Risco</li>
+                <li>Remanescentes: Esquecidos por Deus</li>
+                <li>Resgate Abaixo de Zero</li>
+                <li>Resgate no Oeste</li>
+                <li>Resgate Sem Limites</li>
+                <li>Resident Evil 1: O Hóspede Maldito</li>
+                <li>Resident Evil 2: Apocalipse</li>
+                <li>Resident Evil 3: A Extinção</li>
+                <li>Resident Evil 4: Recomeço</li>
+                <li>Resident Evil 5: Retribuição</li>
+                <li>Resident Evil 6: O Capítulo Final</li>
+                <li>Riddick 1</li>
+                <li>Riddick 2</li>
+                <li>Riddick 3</li>
+                <li>Rio 1</li>
+                <li>Rio 2</li>
+                <li>Riphagen</li>
+                <li>Robin Hood: A Origem</li>
+                <li>RoboCop (2014)</li>
+                <li>RoboCop 1: O Policial do Futuro</li>
+                <li>RoboCop 2</li>
+                <li>RoboCop 3</li>
+                <li>Rocketman</li>
+                <li>Rocky 1: Um Lutador</li>
+                <li>Rocky 2: A Revanche</li>
+                <li>Rocky 3: O Desafio Supremo</li>
+                <li>Rocky 4</li>
+                <li>Rocky 5</li>
+                <li>Rocky Balboa</li>
+                <li>Rogue One: Uma História Star Wars</li>
+                <li>Romeu Tem Que Morrer</li>
+                <li>Rose Red: A Casa Adormecida</li>
+                <li>Rota de Fuga 1</li>
+                <li>Rota de Fuga 2</li>
+                <li>Rota de Fuga 3: O Resgate</li>
+                <li>Rota Mortal 2: Não Olhe Para Trás</li>
+                <li>Rua Cloverfield 10</li>
+                <li>Ruas Sangrentas: O Acerto Final</li>
+                <li>Rush: No Limite da Emoção</li>
+                <li>Rápida e Mortal</li>
+                <li>S.O.S.: Mulheres ao Mar 1</li>
+                <li>S.O.S.: Mulheres ao Mar 2</li>
+                <li>S.W.A.T.: Comando Especial</li>
+                <li>Sabotagem</li>
+                <li>Sai de Baixo: O Filme</li>
+                <li>Sala de Fuga</li>
+                <li>Salvo pela Graça</li>
+                <li>Samurai X: O Fim de Uma Lenda</li>
+                <li>Sangue na Veia</li>
+                <li>Sansão</li>
+                <li>Scooby-Doo!</li>
+                <li>Scooby-Doo! 2: Monstros à Solta</li>
+                <li>Scooby-Doo!: Abracadabra-Doo</li>
+                <li>Scooby-Doo!: Daphne e Velma</li>
+                <li>Scooby-Doo!: De Volta à Ilha dos Zumbis</li>
+                <li>Scooby-Doo!: O Misterio Começa</li>
+                <li>Se Beber Não Case! 1</li>
+                <li>Se Beber Não Case! 2</li>
+                <li>Se Beber Não Case! 3</li>
+                <li>Se Eu Ficar</li>
+                <li>Secretariat: Uma História Impossível</li>
+                <li>Segredos Oficiais</li>
+                <li>Segurando as Pontas</li>
+                <li>Segurança de Shopping 1</li>
+                <li>Segurança de Shopping 2</li>
+                <li>Sem Escalas</li>
+                <li>Sem Filtro: Flamengo</li>
+                <li>Sem Lei e Sem Alma</li>
+                <li>Sem Limites 2</li>
+                <li>Sem Perdão</li>
+                <li>Sem Rastros</li>
+                <li>Sempre ao Seu Lado</li>
+                <li>Sentença de Morte</li>
+                <li>Separados pelo Casamento</li>
+                <li>Sequestro na Ilha</li>
+                <li>Sequestro Relâmpago</li>
+                <li>Sequestros Em Cleveland</li>
+                <li>Serra Pelada</li>
+                <li>Será que?</li>
+                <li>Sete Homens e Um Destino</li>
+                <li>Sete Vidas</li>
+                <li>Seven: Os Sete Crimes Capitais</li>
+                <li>Sex and the City 1</li>
+                <li>Sex and the City 2</li>
+                <li>Sexta-Feira 13 (1)</li>
+                <li>Sexta-Feira 13 (10): Jason X</li>
+                <li>Sexta-Feira 13 (11): Freddy vs Jason</li>
+                <li>Sexta-Feira 13 (12)</li>
+                <li>Sexta-Feira 13 (2)</li>
+                <li>Sexta-Feira 13 (3)</li>
+                <li>Sexta-Feira 13 (4): O Capítulo Final</li>
+                <li>Sexta-Feira 13 (5): Um Novo Começo</li>
+                <li>Sexta-Feira 13 (6): Jason Vive</li>
+                <li>Sexta-Feira 13 (7): A Matança Continua</li>
+                <li>Sexta-Feira 13 (8): Jason Ataca Nova York</li>
+                <li>Sexta-Feira 13 (9): Jason vai para o Inferno</li>
+                <li>Sexta-feira em Apuros</li>
+                <li>Sexta-Feira Muito Louca</li>
+                <li>Sexta-Feira Muito Louca</li>
+                <li>Sexy por Acidente</li>
+                <li>Shazam!</li>
+                <li>Sherlock Holmes 1</li>
+                <li>Sherlock Holmes 2: O Jogo de Sombras</li>
+                <li>Show de Vizinha</li>
+                <li>Shrek 1</li>
+                <li>Shrek 2</li>
+                <li>Shrek 3: Terceiro</li>
+                <li>Shrek 4: Para Sempre</li>
+                <li>Sicário 1: Terra de Ninguém</li>
+                <li>Sicário 2: Dia do Soldado</li>
+                <li>Sierra Burgess é uma Loser</li>
+                <li>Sim Senhor</li>
+                <li>Simplesmente Acontece</li>
+                <li>Sin City 1: A Cidade do Pecado</li>
+                <li>Sin City 2: A Dama Fatal</li>
+                <li>Sinais</li>
+                <li>Sing: Quem Canta Seus Males Espanta</li>
+                <li>Sintonia de Amor</li>
+                <li>Slender Man: Pesadelo Sem Rosto</li>
+                <li>Sniper Americano</li>
+                <li>Sniper: Operações Especiais</li>
+                <li>Snoopy e Charlie Brown: Peanuts O Filme</li>
+                <li>Sobrenatural: A Última Chave</li>
+                <li>Sobreviva a Noite</li>
+                <li>Sociedade dos Poetas Mortos</li>
+                <li>Socorro! Virei uma Garota</li>
+                <li>Sofá Assassino</li>
+                <li>Sol da Meia-noite</li>
+                <li>Soldado Anônimo</li>
+                <li>Soldado Universal 1</li>
+                <li>Soldado Universal 2: O Retorno</li>
+                <li>Soldado Universal 3: Regeneração</li>
+                <li>Soldado Universal 4: Juízo Final</li>
+                <li>Sombra Lunar</li>
+                <li>Somos tão Jovens</li>
+                <li>Sonic: O Filme (Gravado)</li>
+                <li>Space Jam: O Jogo do Século</li>
+                <li>Spark: Uma Aventura Espacial</li>
+                <li>Speed Racer</li>
+                <li>Spirit:  O Corcel Indomável</li>
+                <li>Splice: A Nova Espécie</li>
+                <li>Star Wars 1</li>
+                <li>Star Wars 2: O Império Contra-Ataca</li>
+                <li>Star Wars 3: O Retorno de Jedi</li>
+                <li>Star Wars 4: A Ameaça Fantasma</li>
+                <li>Star Wars 5: Ataque dos Clones</li>
+                <li>Star Wars 6: A Vingança dos Sith</li>
+                <li>Star Wars 7: O Despertar da Força</li>
+                <li>Star Wars 8: Os Últimos Jedi</li>
+                <li>Star Wars 9: A Ascensão Skywalker (Gravado)</li>
+                <li>Steve Jobs</li>
+                <li>Stigmata</li>
+                <li>Street Fighter: A Última Batalha</li>
+                <li>Sucker Punch: Mundo Surreal</li>
+                <li>Sully: O Herói do Rio Hudson</li>
+                <li>Superação: O Milagre da Fé</li>
+                <li>Supercross</li>
+                <li>Surdo</li>
+                <li>Tal Pai Tal Filha</li>
+                <li>Tarzan (1999)</li>
+                <li>Tau</li>
+                <li>Te Pego na Saída</li>
+                <li>Te Peguei!</li>
+                <li>Ted 1</li>
+                <li>Ted 2</li>
+                <li>Tem Alienígenas no meu Quarto</li>
+                <li>Tempestade: Planeta em Fúria</li>
+                <li>Tenacious D: Uma Dupla Infernal</li>
+                <li>Terra de Minas</li>
+                <li>Terra Selvagem</li>
+                <li>Terremoto: A Falha de San Andreas</li>
+                <li>Terror em Silent Hill</li>
+                <li>Terror nos Bastidores</li>
+                <li>The Beach Bum: Levando a Vida Numa Boa</li>
+                <li>The Mustang</li>
+                <li>The Perfection</li>
+                <li>The Post: A Guerra Secreta</li>
+                <li>The Warriors: Os Selvagens da Noite</li>
+                <li>Thor 1</li>
+                <li>Thor 2: O Mundo Sombrio</li>
+                <li>Thor 3: Ragnarok</li>
+                <li>Tim Maia</li>
+                <li>Tinha Que Ser Ele?</li>
+                <li>Tinker Bell 1</li>
+                <li>Tinker Bell 2: O Tesouro Perdido</li>
+                <li>Tinker Bell 3: O Resgate das Fadas</li>
+                <li>Tinker Bell 4: O Segredo das Fadas</li>
+                <li>Tinker Bell 5: Fadas e Piratas</li>
+                <li>Tinker Bell 6: O Monstro da Terra do Nunca</li>
+                <li>Tio Drew</li>
+                <li>Titanic</li>
+                <li>Toc Toc</li>
+                <li>Todo Dia</li>
+                <li>Todo Mundo em Pânico 1</li>
+                <li>Todo Mundo em Pânico 2</li>
+                <li>Todo Mundo em Pânico 3</li>
+                <li>Todo Mundo em Pânico 4</li>
+                <li>Todo Mundo em Pânico 5</li>
+                <li>Todo Poderoso</li>
+                <li>Togo</li>
+                <li>Tomb Raider: A Origem</li>
+                <li>Tomorrowland: Um Lugar Onde Nada é Impossível</li>
+                <li>Top Gang!: Ases Muito Loucos</li>
+                <li>Top Gun: Ases Indomáveis</li>
+                <li>Toy Story 1</li>
+                <li>Toy Story 2</li>
+                <li>Toy Story 3</li>
+                <li>Toy Story 4</li>
+                <li>Transformers 1</li>
+                <li>Transformers 2: A Vingança dos Derrotados</li>
+                <li>Transformers 3: O Lado Oculto da Lua</li>
+                <li>Transformers 4: A Era da Extinção</li>
+                <li>Transformers 5: O Último Cavaleiro</li>
+                <li>Tratamento de Choque</li>
+                <li>Treinando o Papai</li>
+                <li>Treze Homens e um Novo Segredo</li>
+                <li>Trinity é o Meu Nome</li>
+                <li>Triplo X 1</li>
+                <li>Triplo X 2: Estado de Emergência</li>
+                <li>Triplo X 3: Reativado</li>
+                <li>Troco em Dobro</li>
+                <li>Trolls</li>
+                <li>Tropa de Elite 1</li>
+                <li>Tropa de Elite 2: O Inimigo Agora é Outro</li>
+                <li>Tropa Zero</li>
+                <li>Tropas Estelares 1</li>
+                <li>Tropas Estelares 2</li>
+                <li>Tropas Estelares 3: Marauder</li>
+                <li>True Lies</li>
+                <li>Truque de Mestre 1</li>
+                <li>Truque de Mestre 2</li>
+                <li>Tráfico de Mulheres</li>
+                <li>Três Anúncios Para Um Crime</li>
+                <li>Três Espiãs Demais: O Filme</li>
+                <li>Três Ladrões e Um Bebê</li>
+                <li>Três Solteirões e um Bebê</li>
+                <li>Três Solteirões e uma Pequena Dama</li>
+                <li>Tróia</li>
+                <li>Tubarão 1</li>
+                <li>Tubarão 2</li>
+                <li>Tubarão 3</li>
+                <li>Tubarão 4: A Vingança</li>
+                <li>Tudo Acaba Em Festa</li>
+                <li>Tudo e Todas as Coisas</li>
+                <li>Tudo Para Ficar Com Ele</li>
+                <li>Tudo por Amor</li>
+                <li>Tungstênio</li>
+                <li>Turma da Mônica: Laços</li>
+                <li>Twister</li>
+                <li>Tá Chovendo Hambúrguer 1</li>
+                <li>Tá Chovendo Hambúrguer 2</li>
+                <li>Tá Rindo do Quê?</li>
+                <li>Tá Todo Mundo Louco!: Uma Corrida de Milhõe$</li>
+                <li>Tão Forte e Tão Perto</li>
+                <li>Tô Ryca!</li>
+                <li>Ultravioleta</li>
+                <li>Um Amor de Tesouro</li>
+                <li>Um Amor para Recordar</li>
+                <li>Um Ato de Coragem</li>
+                <li>Um Contratempo</li>
+                <li>Um Contratempo</li>
+                <li>Um Crime Perfeito</li>
+                <li>Um Dia a Casa Cai</li>
+                <li>Um Dia de Fúria</li>
+                <li>Um Espião Animal</li>
+                <li>Um Espião e Meio</li>
+                <li>Um Herói de Brinquedo 1</li>
+                <li>Um Homem de Família</li>
+                <li>Um Homem de Sorte</li>
+                <li>Um Homem nas Trevas</li>
+                <li>Um Limite Entre Nós</li>
+                <li>Um Lindo Dia na Vizinhança</li>
+                <li>Um Lobisomem Americano em Londres</li>
+                <li>Um Lugar Chamado Notting Hill</li>
+                <li>Um Lugar Silencioso</li>
+                <li>Um Namorado Para Minha Mulher</li>
+                <li>Um Ninja da Pesada</li>
+                <li>Um Novo Olhar</li>
+                <li>Um Olhar do Paraíso</li>
+                <li>Um Parto de Viagem</li>
+                <li>Um Porto Seguro</li>
+                <li>Um Príncipe em Nova York 1</li>
+                <li>Um Refúgio Azul</li>
+                <li>Um Salão do Barulho 1</li>
+                <li>Um Salão do Barulho 2: Barbeiragem Total</li>
+                <li>Um Salão do Barulho 3</li>
+                <li>Um Senhor Estagiário</li>
+                <li>Um Sonho de Liberdade</li>
+                <li>Um Sonho Possível</li>
+                <li>Um Suburbano Sortudo</li>
+                <li>Um Time Show de Bola</li>
+                <li>Um Tio Quase Perfeito</li>
+                <li>Um Tira da Pesada 1</li>
+                <li>Um Tira da Pesada 2</li>
+                <li>Um Tira da Pesada 3</li>
+                <li>Uma Agente Muito Louca</li>
+                <li>Uma Aventura Lego 1</li>
+                <li>Uma Aventura Lego 2</li>
+                <li>Uma Boa Ação</li>
+                <li>Uma Dobra no Tempo</li>
+                <li>Uma Família de Dois</li>
+                <li>Uma Floresta Muito Louca</li>
+                <li>Uma Linda Mulher</li>
+                <li>Uma Longa Jornada</li>
+                <li>Uma Noite de Crime 1</li>
+                <li>Uma Noite de Crime 2: Anarquia</li>
+                <li>Uma Noite de Crime 3: O Ano da Eleição</li>
+                <li>Uma Noite de Loucuras</li>
+                <li>Uma Noite Mais que Louca</li>
+                <li>Uma Noite no Museu 1</li>
+                <li>Uma Noite no Museu 2</li>
+                <li>Uma Noite no Museu 3: O Segredo da Tumba</li>
+                <li>Uma Quase Dupla</li>
+                <li>Uma Questão de Fé</li>
+                <li>Uma Ressaca de 9 Meses</li>
+                <li>Uma Saída de Mestre</li>
+                <li>Uma Segunda Chance Para Amar</li>
+                <li>Uma Vida Com Propósito</li>
+                <li>Universidade Monstros</li>
+                <li>Up: Altas Aventuras</li>
+                <li>Upa: Meu Monstro Favorito</li>
+                <li>V de Vingança</li>
+                <li>Vai Que Cola 1: O Filme</li>
+                <li>Vai Que Cola 2: O Começo</li>
+                <li>Valente</li>
+                <li>Valerian e a Cidade dos Mil Planetas</li>
+                <li>Van Helsing: O Caçador de Monstros</li>
+                <li>Velocidade Máxima</li>
+                <li>Velozes e Furiosos 1</li>
+                <li>Velozes e Furiosos 2</li>
+                <li>Velozes e Furiosos 3: Desafio em Tóquio</li>
+                <li>Velozes e Furiosos 4</li>
+                <li>Velozes e Furiosos 5: Operação Rio</li>
+                <li>Velozes e Furiosos 6</li>
+                <li>Velozes e Furiosos 7</li>
+                <li>Velozes e Furiosos 8</li>
+                <li>Velozes e Furiosos: Hobbs & Shaw</li>
+                <li>Vende-se Esta Casa</li>
+                <li>Venom</li>
+                <li>Verdade ou Desafio</li>
+                <li>Viagem ao Centro da Terra</li>
+                <li>Viagem Insólita</li>
+                <li>Vice</li>
+                <li>Victor Frankenstein</li>
+                <li>Vida de Inseto</li>
+                <li>Vidro</li>
+                <li>Vingadores 1: The Avengers</li>
+                <li>Vingadores 2: Era de Ultron</li>
+                <li>Vingadores 3: Guerra Infinita</li>
+                <li>Vingadores 4: Ultimato</li>
+                <li>Vingança</li>
+                <li>Vingança a Sangue Frio</li>
+                <li>Vingança FM</li>
+                <li>VIPs</li>
+                <li>Virando a Mesa do Poder</li>
+                <li>Visões do Passado</li>
+                <li>Viva: A Vida é uma Festa</li>
+                <li>Viver Duas Vezes</li>
+                <li>Vizinhos 1</li>
+                <li>Vizinhos 2</li>
+                <li>Vizinhos Nada Secretos</li>
+                <li>Voando para Casa</li>
+                <li>Você Acredita?</li>
+                <li>Volcano: A Fúria</li>
+                <li>Voldemort: A Origem do Herdeiro (Legendado)</li>
+                <li>Vovó... Zona 1</li>
+                <li>Vovó... Zona 2</li>
+                <li>Vovó... Zona 3: Tal Pai Tal Filho</li>
+                <li>Vírus</li>
+                <li>WALL-E</li>
+                <li>Warcraft: O Primeiro Encontro de Dois Mundos</li>
+                <li>Whindersson Nunes: Adulto</li>
+                <li>Whiplash: Em Busca da Perfeição</li>
+                <li>Wolverine: Imortal</li>
+                <li>X-Men 1: O Filme</li>
+                <li>X-Men 2</li>
+                <li>X-Men 3: O Confronto Final</li>
+                <li>X-Men: Apocalipse</li>
+                <li>X-Men: Dias de um Futuro Esquecido</li>
+                <li>X-Men: Fênix Negra</li>
+                <li>X-Men: Primeira Classe</li>
+                <li>XOXO: A Vida é Uma Festa</li>
+                <li>Yesterday (Legendado)</li>
+                <li>Zerando a Vida</li>
+                <li>Zodíaco</li>
+                <li>Zoe e Raven: Os Doze Presentes de Natal</li>
+                <li>Zona de Perigo</li>
+                <li>Zoo: Uma Amizade Maior que a Vida</li>
+                <li>Zootopia: Essa Cidade é o Bicho</li>
+                <li>Zumbilândia</li>
+                <li>Zumbilândia: Atire Duas Vezes</li>
+                <li>REC] 1</li>
+                <li>REC] 2: Possuídos</li>
+                <li>REC] 3: Gênesis</li>
+                <li>À Espera de Um Milagre</li>
+                <li>À Procura da Felicidade</li>
+                <li>À Prova de Fogo</li>
+                <li>À Queima-Roupa</li>
+                <li>Águas Rasas</li>
+                <li>Ártico</li>
+                <li>Êxodo: Deuses e Reis</li>
+
+
+
+            </ul>
+
+
+        <li id="title-name"> Séries</li>
+        <ul class="list-type">
+            <li>1 Contra Todos</li>
+            <li>12 Monkeys</li>
+            <li>13 Reasons Why</li>
+            <li>2 Broke Girls</li>
+            <li>24 Horas</li>
+            <li>3 Palavrinhas</li>
+            <li>3%</li>
+            <li>8 Dias</li>
+            <li>9-1-1</li>
+            <li>A Bíblia</li>
+            <li>A Divisão</li>
+            <li>A Garota da Limpeza</li>
+            <li>A Grande Família</li>
+            <li>A Maldição da Residência Hill</li>
+            <li>A Rainha do Sul</li>
+            <li>A Sete Palmos</li>
+            <li>A Terra Prometida</li>
+            <li>Absentia</li>
+            <li>After Life</li>
+            <li>Alcatraz</li>
+            <li>Altered Carbon</li>
+            <li>American Crime Story</li>
+            <li>American Gods</li>
+            <li>American Horror Story</li>
+            <li>Anne with an E</li>
+            <li>Apocalipse V</li>
+            <li>Arcanjo Renegado</li>
+            <li>Areia Movediça</li>
+            <li>Arquivo Morto</li>
+            <li>Arquivo X</li>
+            <li>Arrow</li>
+            <li>As Telefonistas</li>
+            <li>Assédio</li>
+            <li>Atypical</li>
+            <li>Bad Blood</li>
+            <li>Ballers</li>
+            <li>Better Call Saul</li>
+            <li>Big Little Lies</li>
+            <li>Billions</li>
+            <li>Black Mirror</li>
+            <li>Black Summer</li>
+            <li>Boardwalk Empire</li>
+            <li>Breaking Bad</li>
+            <li>Carcereiros</li>
+            <li>Castle</li>
+            <li>Chernobyl</li>
+            <li>Chicago Fire: Heróis Contra o Fogo</li>
+            <li>Chicago Med</li>
+            <li>Chicago P.D.: Distrito 21</li>
+            <li>Chuck</li>
+            <li>Cobra.Kai</li>
+            <li>Colony</li>
+            <li>Como Defender um Assassino</li>
+            <li>CSI Las Vegas</li>
+            <li>CSI Miami</li>
+            <li>CSI Nova York</li>
+            <li>Da Vincis Demons</li>
+            <li>Dark</li>
+            <li>Deadwind</li>
+            <li>Dexter</li>
+            <li>Dinastia</li>
+            <li>Dois Homens e Meio</li>
+            <li>Dr. House</li>
+            <li>Drácula</li>
+            <li>Elementaríssimo</li>
+            <li>Elite</li>
+            <li>Empire: Fama e Poder</li>
+            <li>Engana-me se Puder</li>
+            <li>Escândalos: Os Bastidores do Poder</li>
+            <li>Eu Tu e Ela</li>
+            <li>Eu Vi</li>
+            <li>Eu, a Patroa e as Crianças</li>
+            <li>Euphoria</li>
+            <li>Evil</li>
+            <li>Família Soprano</li>
+            <li>Fear The Walking Dead</li>
+            <li>Fórmula 1: Dirigir Para Viver</li>
+            <li>Friends</li>
+            <li>Fronteira</li>
+            <li>Fronteiras</li>
+            <li>Fugitivos da Marvel</li>
+            <li>Game of Thrones</li>
+            <li>Ghost Wars</li>
+            <li>Glee</li>
+            <li>Godless</li>
+            <li>Good Girls</li>
+            <li>Gossip Girl</li>
+            <li>Gotham</li>
+            <li>Grace and Frankie</li>
+            <li>Grey's Anatomy</li>
+            <li>Grimm</li>
+            <li>Havaí 5.0</li>
+            <li>Heartland</li>
+            <li>Hebe</li>
+            <li>Heroes</li>
+            <li>Homeland - Segurança Nacional</li>
+            <li>Homens de Terno</li>
+            <li>House of Cards</li>
+            <li>How I Met Your Mother</li>
+            <li>Ilha de Ferro</li>
+            <li>Impuros</li>
+            <li>Insatiable</li>
+            <li>Into the Badlands</li>
+            <li>Inumanos da Marvel</li>
+            <li>Irmandade</li>
+            <li>Irmãos de Guerra</li>
+            <li>iZombie</li>
+            <li>Jack Ryan</li>
+            <li>Jane a Virgem</li>
+            <li>Jesus</li>
+            <li>Jezabel</li>
+            <li>Jornada nas Estrelas: Picard</li>
+            <li>José do Egito</li>
+            <li>Kingdom</li>
+            <li>Krypton</li>
+            <li>La Casa de Papel</li>
+            <li>Lances da Vida</li>
+            <li>Legados</li>
+            <li>Lei & Desordem</li>
+            <li>Lendas do Amanhã</li>
+            <li>Lista Negra</li>
+            <li>Locke and Key</li>
+            <li>Lost</li>
+            <li>Love, Death & Robots</li>
+            <li>Lúcifer</li>
+            <li>MacGyver: Remake</li>
+            <li>Maniac</li>
+            <li>Manifest</li>
+            <li>Maquina Mortifera</li>
+            <li>Marielle: O Documentário</li>
+            <li>Marlon</li>
+            <li>Marvel - Agente Carter</li>
+            <li>Marvel - Demolidor</li>
+            <li>Marvel - Jessica Jones</li>
+            <li>Marvel - Luke Cage</li>
+            <li>Marvel - O Justiceiro</li>
+            <li>Marvel - Os Defensores</li>
+            <li>Marvel - Punho de Ferro</li>
+            <li>Marvel's Agents of SHIELD</li>
+            <li>Me Chama de Bruna</li>
+            <li>Mentes Criminosas</li>
+            <li>Messiah</li>
+            <li>Motel Bates</li>
+            <li>Mr. Robot</li>
+            <li>Narcos</li>
+            <li>Narcos: México</li>
+            <li>NCIS: Los Angeles</li>
+            <li>New Amsterdam</li>
+            <li>Nightflyers</li>
+            <li>O Assassino de Valhalla</li>
+            <li>O Atirador</li>
+            <li>O Bosque</li>
+            <li>O Chefinho</li>
+            <li>O Conto da Aia</li>
+            <li>O Exorcista</li>
+            <li>O Gerente da Noite</li>
+            <li>O Mandaloriano</li>
+            <li>O Mecanismo</li>
+            <li>O Mentalista</li>
+            <li>O Mundo Perdido</li>
+            <li>O Mundo Sombrio de Sabrina</li>
+            <li>O Negocio</li>
+            <li>O Nevoeiro</li>
+            <li>O Pacífico</li>
+            <li>O Residente</li>
+            <li>O Rico e Lázaro</li>
+            <li>O Sócio</li>
+            <li>O Último Guardião</li>
+            <li>O.C</li>
+            <li>Olhos que Condenam</li>
+            <li>Once Upon a Time</li>
+            <li>Orange is The New Black</li>
+            <li>Os 100</li>
+            <li>Os Dez Mandamentos</li>
+            <li>Os Inocentes</li>
+            <li>Os Instrumentos Mortais</li>
+            <li>Os Roni</li>
+            <li>Os Simpsons</li>
+            <li>Outcast</li>
+            <li>Outlander</li>
+            <li>Outra Vida</li>
+            <li>Oz</li>
+            <li>Ozark</li>
+            <li>Pablo Escobar: O Senhor do Tráfico</li>
+            <li>Peaky Blinders</li>
+            <li>Penny Dreadful</li>
+            <li>Perdidos no Espaço</li>
+            <li>Ponto Cego</li>
+            <li>Preacher</li>
+            <li>Pretty Little Liars</li>
+            <li>Prison Break</li>
+            <li>Psi</li>
+            <li>Quantico</li>
+            <li>Ragnarok</li>
+            <li>Raio Negro</li>
+            <li>Rei Davi</li>
+            <li>Reign</li>
+            <li>Revenge</li>
+            <li>Riverdale</li>
+            <li>Rua Augusta</li>
+            <li>S.W.A.T.</li>
+            <li>Safe</li>
+            <li>Salem</li>
+            <li>Salvation</li>
+            <li>Sansão e Dalila</li>
+            <li>Santa Clarita Diet</li>
+            <li>Santos Dumont</li>
+            <li>Scorpion</li>
+            <li>SEAL Team</li>
+            <li>See</li>
+            <li>Sem Limites</li>
+            <li>Sense8</li>
+            <li>Sex Education</li>
+            <li>Shippados</li>
+            <li>Silicon Valley</li>
+            <li>Sintonia</li>
+            <li>Siren</li>
+            <li>Six</li>
+            <li>Slasher</li>
+            <li>Smallville</li>
+            <li>Sob Pressão</li>
+            <li>Sons of Anarchy</li>
+            <li>Spartacus</li>
+            <li>Station 19</li>
+            <li>Stranger Things</li>
+            <li>Supergirl</li>
+            <li>Supernatural</li>
+            <li>Teen Wolf</li>
+            <li>Templários</li>
+            <li>The Act</li>
+            <li>The Americans 2013</li>
+            <li>The Big Bang Theory</li>
+            <li>The Boys</li>
+            <li>The Closer</li>
+            <li>The End of the F***ing World</li>
+            <li>The Flash</li>
+            <li>The Following</li>
+            <li>The Good Doctor</li>
+            <li>The Hot Zone</li>
+            <li>The Last Kingdom</li>
+            <li>The Last Man on Earth</li>
+            <li>The Last Ship</li>
+            <li>The Magicians</li>
+            <li>The Originals</li>
+            <li>The Passage</li>
+            <li>The Rain 2018</li>
+            <li>The Ranch</li>
+            <li>The Sinner</li>
+            <li>The Strain</li>
+            <li>The Umbrella Academy</li>
+            <li>The Vampire Diaries</li>
+            <li>The Walking Dead</li>
+            <li>The Witcher</li>
+            <li>This Is Us</li>
+            <li>Tidelands</li>
+            <li>Timao e Pumba</li>
+            <li>Titans</li>
+            <li>Todo Mundo Odeia o Chris</li>
+            <li>Três Espiãs Demais</li>
+            <li>Troia: A Queda de Uma Cidade</li>
+            <li>True Blood</li>
+            <li>Tyrant</li>
+            <li>Um Maluco no Pedaço</li>
+            <li>Uma Noite de Crime</li>
+            <li>Under the Dome</li>
+            <li>Unsolved</li>
+            <li>Vai Que Cola</li>
+            <li>Van Helsing</li>
+            <li>Verdades Secretas</li>
+            <li>Vikings</li>
+            <li>Vis a Vis</li>
+            <li>Você</li>
+            <li>Watchmen</li>
+            <li>Westworld</li>
+            <li>White Collar</li>
+            <li>Young Sheldon</li>
+            <li>Z Nation</li>
+            <li>ZeroZeroZero</li>
+            <li>Zoo</li>
+
+        </ul>
+    </ul>
+
+</body>
+
+</html>
